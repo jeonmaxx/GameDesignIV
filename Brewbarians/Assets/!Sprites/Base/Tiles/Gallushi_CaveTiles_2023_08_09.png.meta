@@ -1,0 +1,937 @@
+fileFormatVersion: 2
+guid: 676168dde5ebd3944949fc87b45360bb
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gallushi_CaveTiles_2023_08_09_0
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 297
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b57c98054eb3f14ba63027135b1bda8
+      internalID: 222242268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CaveTiles_2023_08_09_1
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 297
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e6ba7241782c14aadfab5fec09b5c9
+      internalID: -1962464146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CaveTiles_2023_08_09_2
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 297
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b0c984945503e4c8bef02951c07039
+      internalID: 1339372066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CaveTiles_2023_08_09_3
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 297
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659636a737fbf194db1df5c62ccfab3b
+      internalID: 1615954470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CaveTiles_2023_08_09_4
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 257
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f5594861b974e4c9f9739e7f84bfba
+      internalID: 309084754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CaveTiles_2023_08_09_5
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 257
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd269d34b38843645b131acdd1c929eb
+      internalID: -1768495874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CaveTiles_2023_08_09_6
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 257
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b847bdbd1677f5f4aa69346b6fe629d1
+      internalID: -1712182150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CaveTiles_2023_08_09_7
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 257
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c72bb4092df4f734b98b4bcea8915fb7
+      internalID: -2024460045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CaveTiles_2023_08_09_8
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 216
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27c080dd02a52974f966634ed66476df
+      internalID: 1207996852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CaveTiles_2023_08_09_9
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 216
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267cd06f50475704dbcf8f44e6d638b2
+      internalID: -1593438952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CaveTiles_2023_08_09_10
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 176
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 238a74225c9952a4c97e9fad02bfec48
+      internalID: -467577293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CaveTiles_2023_08_09_11
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 176
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ba27cb63a0cd04cb5c0c138afce044
+      internalID: 921903433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CaveTiles_2023_08_09_12
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 176
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f2f79ca78e85c24683ff6c2c9e84937
+      internalID: 1095604482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CaveTiles_2023_08_09_13
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 130
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 346f485a8d6f3cd45a4998b1b92b26f8
+      internalID: -588690299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CaveTiles_2023_08_09_14
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 130
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715a59477decaed44acae67d80afb2bd
+      internalID: 1133627328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CaveTiles_2023_08_09_15
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 131
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f448bd21eec8110408023d2b084c15f6
+      internalID: -1319370763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CaveTiles_2023_08_09_16
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 131
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b109badc69d9c040b5978eee5afacf5
+      internalID: -1569742165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CaveTiles_2023_08_09_17
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 89
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec0a8171002086d4db578913ee5e9c03
+      internalID: 13753353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CaveTiles_2023_08_09_18
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 89
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d47312db2dec6a45870ae9df52261d3
+      internalID: 1953382548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CaveTiles_2023_08_09_19
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 89
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f93a6b9645f31c24ab5cb1fbdd6e04d6
+      internalID: -242440976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CaveTiles_2023_08_09_20
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 90
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3da7b7a43466b94aba74c8a65d99e36
+      internalID: -523189076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CaveTiles_2023_08_09_21
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 90
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba19bbd3af917e4fae73341a9083d84
+      internalID: -1761923179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CaveTiles_2023_08_09_22
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 90
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56bb4f99c3fcd2f40bed8bdff551dfe2
+      internalID: 588356074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CaveTiles_2023_08_09_23
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 49
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1a4da9986a3e6a4f952e378d03b6904
+      internalID: 220448841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CaveTiles_2023_08_09_24
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 49
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90294164615e3ee4d8894aa483ae9454
+      internalID: 1154083386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CaveTiles_2023_08_09_25
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 49
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17106b519e307504db9ee6bc1598b8d8
+      internalID: -1675088652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CaveTiles_2023_08_09_26
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 49
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3955159d910d01342b156fbf573c54a5
+      internalID: 1646854433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CaveTiles_2023_08_09_27
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 49
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b3490d34a6f134e9c586c59261cc49
+      internalID: 914573903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CaveTiles_2023_08_09_28
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 49
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5e674e8deb08b46b87ca88c51ca29f
+      internalID: 1414309435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CaveTiles_2023_08_09_29
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 9
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a995d628541a308439fbe21fb9ef77eb
+      internalID: 596095683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CaveTiles_2023_08_09_30
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 9
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 218568a81ca380d4687d155b45a87345
+      internalID: 268973505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CaveTiles_2023_08_09_31
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 9
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff9163ad0cf3f54ca1f30fe900f5ac2
+      internalID: 576795113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CaveTiles_2023_08_09_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 9
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 222d50eb335abf8468861183f468fcb7
+      internalID: -1598803560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CaveTiles_2023_08_09_33
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 9
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ef1661aaa4b2640b51ec15032d9a35
+      internalID: -330856520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CaveTiles_2023_08_09_34
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 9
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20172e6baa3c454a824203ff0647826
+      internalID: -1407803780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CaveTiles_2023_08_09_35
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 9
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95460b701d3c9f046b1deb1d3ecc8719
+      internalID: 2128940073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CaveTiles_2023_08_09_36
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 9
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39b60235c00955643917b59340274add
+      internalID: 1777046200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Gallushi_CaveTiles_2023_08_09_0: 222242268
+      Gallushi_CaveTiles_2023_08_09_1: -1962464146
+      Gallushi_CaveTiles_2023_08_09_10: -467577293
+      Gallushi_CaveTiles_2023_08_09_11: 921903433
+      Gallushi_CaveTiles_2023_08_09_12: 1095604482
+      Gallushi_CaveTiles_2023_08_09_13: -588690299
+      Gallushi_CaveTiles_2023_08_09_14: 1133627328
+      Gallushi_CaveTiles_2023_08_09_15: -1319370763
+      Gallushi_CaveTiles_2023_08_09_16: -1569742165
+      Gallushi_CaveTiles_2023_08_09_17: 13753353
+      Gallushi_CaveTiles_2023_08_09_18: 1953382548
+      Gallushi_CaveTiles_2023_08_09_19: -242440976
+      Gallushi_CaveTiles_2023_08_09_2: 1339372066
+      Gallushi_CaveTiles_2023_08_09_20: -523189076
+      Gallushi_CaveTiles_2023_08_09_21: -1761923179
+      Gallushi_CaveTiles_2023_08_09_22: 588356074
+      Gallushi_CaveTiles_2023_08_09_23: 220448841
+      Gallushi_CaveTiles_2023_08_09_24: 1154083386
+      Gallushi_CaveTiles_2023_08_09_25: -1675088652
+      Gallushi_CaveTiles_2023_08_09_26: 1646854433
+      Gallushi_CaveTiles_2023_08_09_27: 914573903
+      Gallushi_CaveTiles_2023_08_09_28: 1414309435
+      Gallushi_CaveTiles_2023_08_09_29: 596095683
+      Gallushi_CaveTiles_2023_08_09_3: 1615954470
+      Gallushi_CaveTiles_2023_08_09_30: 268973505
+      Gallushi_CaveTiles_2023_08_09_31: 576795113
+      Gallushi_CaveTiles_2023_08_09_32: -1598803560
+      Gallushi_CaveTiles_2023_08_09_33: -330856520
+      Gallushi_CaveTiles_2023_08_09_34: -1407803780
+      Gallushi_CaveTiles_2023_08_09_35: 2128940073
+      Gallushi_CaveTiles_2023_08_09_36: 1777046200
+      Gallushi_CaveTiles_2023_08_09_4: 309084754
+      Gallushi_CaveTiles_2023_08_09_5: -1768495874
+      Gallushi_CaveTiles_2023_08_09_6: -1712182150
+      Gallushi_CaveTiles_2023_08_09_7: -2024460045
+      Gallushi_CaveTiles_2023_08_09_8: 1207996852
+      Gallushi_CaveTiles_2023_08_09_9: -1593438952
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

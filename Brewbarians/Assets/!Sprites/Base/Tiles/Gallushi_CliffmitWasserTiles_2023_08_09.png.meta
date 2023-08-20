@@ -1,0 +1,673 @@
+fileFormatVersion: 2
+guid: 15fc4f2adcdabee4b9d4be4559653967
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gallushi_CliffmitWasserTiles_2023_08_09_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 234
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb93c143520157428557aa9b6a4b6c3
+      internalID: -337533089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CliffmitWasserTiles_2023_08_09_1
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 234
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b612085f0b5be7b448e26717256a218f
+      internalID: -1290040519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CliffmitWasserTiles_2023_08_09_2
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 234
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4d82ad62e0df349a27f23a83a94762
+      internalID: 739054076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CliffmitWasserTiles_2023_08_09_3
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 234
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcdaeacea22751c4ab933851b5a96361
+      internalID: -1635990344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CliffmitWasserTiles_2023_08_09_4
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 234
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e6d0698b2818d548a51347d1e257369
+      internalID: 335320272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CliffmitWasserTiles_2023_08_09_5
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 197
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c59e9eb24777004da7cc753bfa9f0a3
+      internalID: -260085611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CliffmitWasserTiles_2023_08_09_6
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 197
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07bd7e00fadb4f546a76c941fab86660
+      internalID: -1657171682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CliffmitWasserTiles_2023_08_09_7
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 161
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c4bb63ea4276746b3286c130bd554d
+      internalID: -945134373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CliffmitWasserTiles_2023_08_09_8
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 161
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7aa0270e85591b4ea542dad9730c67b
+      internalID: -398596402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CliffmitWasserTiles_2023_08_09_9
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 122
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9a648af6f68194da22ad79de696d77
+      internalID: -639714091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CliffmitWasserTiles_2023_08_09_10
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 122
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41982a8969cffa142807f361440b586a
+      internalID: -1581692532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CliffmitWasserTiles_2023_08_09_11
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 84
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 356b333b273193d419e55c2a8e4ffed7
+      internalID: 1204295736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CliffmitWasserTiles_2023_08_09_12
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 84
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43afdee22747767428979674d4b51eb9
+      internalID: 926983649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CliffmitWasserTiles_2023_08_09_13
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 84
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 148840947406ee3449adeb6a911080a5
+      internalID: -1325198969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CliffmitWasserTiles_2023_08_09_14
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 85
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 172e87e5549b22f4ba6888e9f1668cfa
+      internalID: -1023977592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CliffmitWasserTiles_2023_08_09_15
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 45
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deac1e9927daa2948bcd5bb1af8f5f85
+      internalID: -1135385951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CliffmitWasserTiles_2023_08_09_16
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 45
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1164b6111bfd77c42a31327e598cff94
+      internalID: -1531656109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CliffmitWasserTiles_2023_08_09_17
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 44
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3bd0e6981c9dc42ae6f72d3721ec29
+      internalID: 94196955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CliffmitWasserTiles_2023_08_09_18
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 45
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d97cb78e8de95de49aed3e12bd863e43
+      internalID: -2115511825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CliffmitWasserTiles_2023_08_09_19
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 46
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c4d5d8175ce94468af5f2bd70e6a61
+      internalID: -704024699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CliffmitWasserTiles_2023_08_09_20
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 7
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 556cf06cb695c3d42b1d148775ef1478
+      internalID: -150499177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CliffmitWasserTiles_2023_08_09_21
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 8
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d6365ce6d757274899694c2d54131d6
+      internalID: 481510809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CliffmitWasserTiles_2023_08_09_22
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 8
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ca0dba2fc3134429f3abc74a2eaa98
+      internalID: 394678693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CliffmitWasserTiles_2023_08_09_23
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 8
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b9a6661eeff63d4795fb1a0be433a32
+      internalID: 92238412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CliffmitWasserTiles_2023_08_09_24
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 9
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c126506015f0dc4cada2ddd26e03708
+      internalID: -1935034746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 0822ebcd7e54a30488de7d781c8e9054
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Gallushi_CliffmitWasserTiles_2023_08_09_0: -337533089
+      Gallushi_CliffmitWasserTiles_2023_08_09_1: -1290040519
+      Gallushi_CliffmitWasserTiles_2023_08_09_10: -1581692532
+      Gallushi_CliffmitWasserTiles_2023_08_09_11: 1204295736
+      Gallushi_CliffmitWasserTiles_2023_08_09_12: 926983649
+      Gallushi_CliffmitWasserTiles_2023_08_09_13: -1325198969
+      Gallushi_CliffmitWasserTiles_2023_08_09_14: -1023977592
+      Gallushi_CliffmitWasserTiles_2023_08_09_15: -1135385951
+      Gallushi_CliffmitWasserTiles_2023_08_09_16: -1531656109
+      Gallushi_CliffmitWasserTiles_2023_08_09_17: 94196955
+      Gallushi_CliffmitWasserTiles_2023_08_09_18: -2115511825
+      Gallushi_CliffmitWasserTiles_2023_08_09_19: -704024699
+      Gallushi_CliffmitWasserTiles_2023_08_09_2: 739054076
+      Gallushi_CliffmitWasserTiles_2023_08_09_20: -150499177
+      Gallushi_CliffmitWasserTiles_2023_08_09_21: 481510809
+      Gallushi_CliffmitWasserTiles_2023_08_09_22: 394678693
+      Gallushi_CliffmitWasserTiles_2023_08_09_23: 92238412
+      Gallushi_CliffmitWasserTiles_2023_08_09_24: -1935034746
+      Gallushi_CliffmitWasserTiles_2023_08_09_3: -1635990344
+      Gallushi_CliffmitWasserTiles_2023_08_09_4: 335320272
+      Gallushi_CliffmitWasserTiles_2023_08_09_5: -260085611
+      Gallushi_CliffmitWasserTiles_2023_08_09_6: -1657171682
+      Gallushi_CliffmitWasserTiles_2023_08_09_7: -945134373
+      Gallushi_CliffmitWasserTiles_2023_08_09_8: -398596402
+      Gallushi_CliffmitWasserTiles_2023_08_09_9: -639714091
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

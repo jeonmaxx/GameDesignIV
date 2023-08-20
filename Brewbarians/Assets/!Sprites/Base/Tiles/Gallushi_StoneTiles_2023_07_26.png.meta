@@ -1,0 +1,827 @@
+fileFormatVersion: 2
+guid: 54850d3716c19fc42b7fb1911dcd58a2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gallushi_StoneTiles_2023_07_26_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 109
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eafc77d0c817c846bfc370f178ebbd0
+      internalID: -1145479625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_StoneTiles_2023_07_26_1
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 109
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9a11173841ae94da84fc9b7c258e51
+      internalID: -948401487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_StoneTiles_2023_07_26_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 109
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcddb8da2a89e9b4dbca1116458a1bd3
+      internalID: 572345630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_StoneTiles_2023_07_26_3
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 109
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def3188a07907a749a4ab051de5a99a6
+      internalID: -492679183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_StoneTiles_2023_07_26_4
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 109
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc84797cc91e0742b374cabf7d56e87
+      internalID: 1335841438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_StoneTiles_2023_07_26_5
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 109
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c376f25295c26f4dae921dbfb576070
+      internalID: -560923778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_StoneTiles_2023_07_26_6
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 109
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faee211d25606034f9f2b96cc94fb66d
+      internalID: 699876454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_StoneTiles_2023_07_26_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 109
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334662323cd3e35469fa589406a61569
+      internalID: -1396160950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_StoneTiles_2023_07_26_8
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 109
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff91fdae30138b46a38c7eb8db66aff
+      internalID: -594497674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_StoneTiles_2023_07_26_9
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 109
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d889c386e3144f748adb7cc2f42d66fa
+      internalID: 1264543080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_StoneTiles_2023_07_26_10
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 67
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95ec448eda4cbf4fa2f0255d6d20256
+      internalID: 1424400727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_StoneTiles_2023_07_26_11
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 67
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d2609d815d29fe4c8c3eafafcbe9997
+      internalID: -1481381921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_StoneTiles_2023_07_26_12
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 67
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 925dba842a76e8444978db6c6ae2a316
+      internalID: 1334360693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_StoneTiles_2023_07_26_13
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 67
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1510afc6381d97c4ab837a4a15ebbe39
+      internalID: 674295901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_StoneTiles_2023_07_26_14
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 67
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddbee9b7b083b2645a59257d053fca1f
+      internalID: 831804467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_StoneTiles_2023_07_26_15
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 67
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a56b8ac0c399e4e831236037533726
+      internalID: -1741131758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_StoneTiles_2023_07_26_16
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 67
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e34a7db021b6ec34c83fc29fec7ac414
+      internalID: 1386965446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_StoneTiles_2023_07_26_17
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 67
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda54d68cd7f32b4e965807f24480278
+      internalID: 1424626407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_StoneTiles_2023_07_26_18
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 67
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7db1064f7434d43abdee7c276d9e93
+      internalID: 423234726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_StoneTiles_2023_07_26_19
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 26
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edac1964e6065c5488df966f4404bfbb
+      internalID: 611561412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_StoneTiles_2023_07_26_20
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 26
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cff73c984324eb94fb522d9dfa77c5a4
+      internalID: -1492960812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_StoneTiles_2023_07_26_21
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 26
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79adc4e25895e064b83ed74dea43e75e
+      internalID: 45321623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_StoneTiles_2023_07_26_22
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 26
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 963e881f9b558934c8e577f35656b41f
+      internalID: 1131173973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_StoneTiles_2023_07_26_23
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 24
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519bc52d4be471a428d8c70f700b64ce
+      internalID: -311193344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_StoneTiles_2023_07_26_24
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 25
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08dc1eff71827534cbc2e9e6d4aa6436
+      internalID: -1419438746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_StoneTiles_2023_07_26_25
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 25
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2082cc8ea08b8340bce6696d07d7c15
+      internalID: -741141729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_StoneTiles_2023_07_26_26
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 25
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52df7187bb4a50944928dbd7decd5da7
+      internalID: 1970070819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_StoneTiles_2023_07_26_27
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 25
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072baf3a74c9e6348993362356e65a9a
+      internalID: 2082660498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_StoneTiles_2023_07_26_28
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 25
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b40ee06e27de2bc4ebd07d9b1083d716
+      internalID: 1729792634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_StoneTiles_2023_07_26_29
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 77
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 355440a42db9b214ebb37b2c7989882a
+      internalID: -570353276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_StoneTiles_2023_07_26_30
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 109
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23dcde949d9dc8048b45900be86de532
+      internalID: 182023373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_StoneTiles_2023_07_26_31
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 77
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c96f1429081ce8c4a93bab63fdb19330
+      internalID: 1481163121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 190d67497e0b360449610f7cc66062e5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Gallushi_StoneTiles_2023_07_26_0: -1145479625
+      Gallushi_StoneTiles_2023_07_26_1: -948401487
+      Gallushi_StoneTiles_2023_07_26_10: 1424400727
+      Gallushi_StoneTiles_2023_07_26_11: -1481381921
+      Gallushi_StoneTiles_2023_07_26_12: 1334360693
+      Gallushi_StoneTiles_2023_07_26_13: 674295901
+      Gallushi_StoneTiles_2023_07_26_14: 831804467
+      Gallushi_StoneTiles_2023_07_26_15: -1741131758
+      Gallushi_StoneTiles_2023_07_26_16: 1386965446
+      Gallushi_StoneTiles_2023_07_26_17: 1424626407
+      Gallushi_StoneTiles_2023_07_26_18: 423234726
+      Gallushi_StoneTiles_2023_07_26_19: 611561412
+      Gallushi_StoneTiles_2023_07_26_2: 572345630
+      Gallushi_StoneTiles_2023_07_26_20: -1492960812
+      Gallushi_StoneTiles_2023_07_26_21: 45321623
+      Gallushi_StoneTiles_2023_07_26_22: 1131173973
+      Gallushi_StoneTiles_2023_07_26_23: -311193344
+      Gallushi_StoneTiles_2023_07_26_24: -1419438746
+      Gallushi_StoneTiles_2023_07_26_25: -741141729
+      Gallushi_StoneTiles_2023_07_26_26: 1970070819
+      Gallushi_StoneTiles_2023_07_26_27: 2082660498
+      Gallushi_StoneTiles_2023_07_26_28: 1729792634
+      Gallushi_StoneTiles_2023_07_26_29: -570353276
+      Gallushi_StoneTiles_2023_07_26_3: -492679183
+      Gallushi_StoneTiles_2023_07_26_30: 182023373
+      Gallushi_StoneTiles_2023_07_26_31: 1481163121
+      Gallushi_StoneTiles_2023_07_26_4: 1335841438
+      Gallushi_StoneTiles_2023_07_26_5: -560923778
+      Gallushi_StoneTiles_2023_07_26_6: 699876454
+      Gallushi_StoneTiles_2023_07_26_7: -1396160950
+      Gallushi_StoneTiles_2023_07_26_8: -594497674
+      Gallushi_StoneTiles_2023_07_26_9: 1264543080
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

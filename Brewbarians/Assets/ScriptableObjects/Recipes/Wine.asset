@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d617a0ccfc77af41987e1a4706db448, type: 3}
+  m_Name: Wine
+  m_EditorClassIdentifier: 
+  DrinkName: Wine
+  Product1Amount: 2
+  Product1: {fileID: 11400000, guid: ecfa8ccfa1efc684daa2dae0d12401a8, type: 2}
+  Product2Amount: 2
+  Product2: {fileID: 11400000, guid: 2b0d05b25d01e694ca8daf017af9abd9, type: 2}
+  Drink: {fileID: 11400000, guid: 30458e0cb9857964bb1d3cd08e47635d, type: 2}
+  BrewTime: 5

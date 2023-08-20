@@ -1,0 +1,255 @@
+fileFormatVersion: 2
+guid: aa8397434c0785a43ab35de546f5a0d0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Kurth_Kuh_Stehen_Links_Sprite_2023_08_10_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 49
+        width: 45
+        height: 50
+      alignment: 9
+      pivot: {x: 0.47693908, y: 0.44811308}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1881b6d65d6275e47a03bc8200514eef
+      internalID: -1314375085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kurth_Kuh_Stehen_Links_Sprite_2023_08_10_1
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 49
+        width: 45
+        height: 50
+      alignment: 9
+      pivot: {x: 0.4596434, y: 0.43254685}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c8dc2c1aa21a5449d25457c7500ced
+      internalID: 866139416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kurth_Kuh_Stehen_Links_Sprite_2023_08_10_2
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 49.5
+        width: 45.25
+        height: 49.5
+      alignment: 9
+      pivot: {x: 0.46273297, y: 0.44234782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4efb689215e264d8e08c3f0b390c69
+      internalID: -352056074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kurth_Kuh_Stehen_Links_Sprite_2023_08_10_3
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 49.5
+        width: 45.25
+        height: 49.5
+      alignment: 9
+      pivot: {x: 0.43406618, y: 0.42662466}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14bb14e634502bc469c90db7960e2bb5
+      internalID: -152865207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kurth_Kuh_Stehen_Links_Sprite_2023_08_10_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.5
+        width: 45.25
+        height: 49.5
+      alignment: 9
+      pivot: {x: 0.4799332, y: 0.5681341}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c0de3a7df0e1f42ab83fda3c3f9094
+      internalID: -1952281718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kurth_Kuh_Stehen_Links_Sprite_2023_08_10_5
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 0.5
+        width: 45.25
+        height: 49.5
+      alignment: 9
+      pivot: {x: 0.45699972, y: 0.5550314}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c3579a6775ad34896c65a93eb144eb
+      internalID: 1492580156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 9d50440b1084b9d46966d31f142dcb13
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Kurth_Kuh_Stehen_Links_Sprite_2023_08_10_0: -1314375085
+      Kurth_Kuh_Stehen_Links_Sprite_2023_08_10_1: 866139416
+      Kurth_Kuh_Stehen_Links_Sprite_2023_08_10_2: -352056074
+      Kurth_Kuh_Stehen_Links_Sprite_2023_08_10_3: -152865207
+      Kurth_Kuh_Stehen_Links_Sprite_2023_08_10_4: -1952281718
+      Kurth_Kuh_Stehen_Links_Sprite_2023_08_10_5: 1492580156
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

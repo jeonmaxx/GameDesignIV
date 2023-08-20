@@ -1,0 +1,773 @@
+fileFormatVersion: 2
+guid: 047188c91d6221544b540b06781cb0a8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gallushi_CliffTiles_2023_08_09_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 233
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad702c78bdac6d94b8154585690a393d
+      internalID: -1009907792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CliffTiles_2023_08_09_1
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 233
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a023c3d827a4b51499c246daf95e1d63
+      internalID: 586253450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CliffTiles_2023_08_09_10
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 121
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e38b43ec3caeb584fb6eea3a85d1a469
+      internalID: 1916336478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CliffTiles_2023_08_09_11
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 83
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f5c88c172220a40883a74e46a7a414
+      internalID: -741927876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CliffTiles_2023_08_09_12
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 83
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33baf7128636c2543bed026a2680cd2f
+      internalID: -774970846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CliffTiles_2023_08_09_13
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 83
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ba4761e71a8f24186f85b2df97063f
+      internalID: -210452386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CliffTiles_2023_08_09_14
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 84
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 214c47df3e16a924099f00edbf933de7
+      internalID: -146860198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CliffTiles_2023_08_09_15
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 44
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 665aca2324fbeb644b5b05f13c9f67fb
+      internalID: 1262229995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CliffTiles_2023_08_09_16
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 44
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebdc45b7214c26943bb98e508dc9fcfd
+      internalID: -1387438093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CliffTiles_2023_08_09_17
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 43
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0abf41bb8deabd44957037fc568e738
+      internalID: -987931908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CliffTiles_2023_08_09_18
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 44
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396648fb9138a584cb44bba27875140a
+      internalID: 641715493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CliffTiles_2023_08_09_19
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 45
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c89cc55d7d3283847847b5cfed86ebb7
+      internalID: 684135030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CliffTiles_2023_08_09_2
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 233
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d84ea53ee12f6f84e99b1421579b20f2
+      internalID: -620654428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CliffTiles_2023_08_09_20
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 7
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38322f8a20c896349bb1a77ecf8ea8cd
+      internalID: 2002700804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CliffTiles_2023_08_09_21
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 7
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd37e6cfd5620eb42adb0912e33cdbb4
+      internalID: -1829929088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CliffTiles_2023_08_09_22
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 7
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5229e2978263a244b11b27f1db6c14b
+      internalID: 1338501236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CliffTiles_2023_08_09_23
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 7
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a28b56575a4c8a4690519b1c3e5321a
+      internalID: -1564726688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CliffTiles_2023_08_09_24
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 8
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23cda47f493000e4aa977f6c22a67f21
+      internalID: 592274206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CliffTiles_2023_08_09_3
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 233
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c8f43846c1216418826e00ff7bb34e
+      internalID: 1824634246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CliffTiles_2023_08_09_4
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 233
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d55f03eb8292d44b43bbdf30ddd059
+      internalID: -2007340869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CliffTiles_2023_08_09_5
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 194
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 32, y: 32}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16eccf1e7befaa547b8e20c7e35e412e
+      internalID: -94632225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CliffTiles_2023_08_09_6
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 196
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1621a5c4407b9e4498caadb1dfc29b77
+      internalID: -1447135407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CliffTiles_2023_08_09_7
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972b8e1c74635b44e8b3cd9cdc29517d
+      internalID: -1155816791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CliffTiles_2023_08_09_8
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6884877c46f362449db547aecf78a85
+      internalID: -1047547527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_CliffTiles_2023_08_09_9
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 121
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c37818afc052b84a8be63ae6842cfca
+      internalID: -1672691234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline:
+    - - {x: -91, y: 97}
+      - {x: -91, y: 129}
+      - {x: -59, y: 129}
+      - {x: -59, y: 97}
+    - - {x: -55, y: 97}
+      - {x: -55, y: 129}
+      - {x: -23, y: 129}
+      - {x: -23, y: 97}
+    - - {x: -17, y: 97}
+      - {x: -17, y: 129}
+      - {x: 15, y: 129}
+      - {x: 15, y: 97}
+    - - {x: 22, y: 97}
+      - {x: 22, y: 129}
+      - {x: 54, y: 129}
+      - {x: 54, y: 97}
+    - - {x: 59, y: 97}
+      - {x: 59, y: 129}
+      - {x: 91, y: 129}
+      - {x: 91, y: 97}
+    - - {x: 55, y: 60}
+      - {x: 55, y: 92}
+      - {x: 87, y: 92}
+      - {x: 87, y: 60}
+    - - {x: 87, y: 24}
+      - {x: 87, y: 56}
+      - {x: 119, y: 56}
+      - {x: 119, y: 24}
+    - - {x: 87, y: -15}
+      - {x: 87, y: 17}
+      - {x: 119, y: 17}
+      - {x: 119, y: -15}
+    - - {x: 87, y: -52}
+      - {x: 87, y: -20}
+      - {x: 119, y: -20}
+      - {x: 119, y: -52}
+    - - {x: 42, y: -53}
+      - {x: 42, y: -21}
+      - {x: 74, y: -21}
+      - {x: 74, y: -53}
+    - - {x: 88, y: -91}
+      - {x: 88, y: -59}
+      - {x: 120, y: -59}
+      - {x: 120, y: -91}
+    - - {x: 41, y: -92}
+      - {x: 41, y: -60}
+      - {x: 73, y: -60}
+      - {x: 73, y: -92}
+    - - {x: 87, y: -128}
+      - {x: 87, y: -96}
+      - {x: 119, y: -96}
+      - {x: 119, y: -128}
+    - - {x: 41, y: -129}
+      - {x: 41, y: -97}
+      - {x: 73, y: -97}
+      - {x: 73, y: -129}
+    - - {x: -13, y: -129}
+      - {x: -13, y: -97}
+      - {x: 19, y: -97}
+      - {x: 19, y: -129}
+    - - {x: -13, y: -93}
+      - {x: -13, y: -61}
+      - {x: 19, y: -61}
+      - {x: 19, y: -93}
+    - - {x: -68, y: -92}
+      - {x: -68, y: -60}
+      - {x: -36, y: -60}
+      - {x: -36, y: -92}
+    - - {x: -67, y: -53}
+      - {x: -67, y: -21}
+      - {x: -35, y: -21}
+      - {x: -35, y: -53}
+    - - {x: -68, y: -129}
+      - {x: -68, y: -97}
+      - {x: -36, y: -97}
+      - {x: -36, y: -129}
+    - - {x: -118, y: -129}
+      - {x: -118, y: -97}
+      - {x: -86, y: -97}
+      - {x: -86, y: -129}
+    - - {x: -118, y: -92}
+      - {x: -118, y: -60}
+      - {x: -86, y: -60}
+      - {x: -86, y: -92}
+    - - {x: -118, y: -53}
+      - {x: -118, y: -21}
+      - {x: -86, y: -21}
+      - {x: -86, y: -53}
+    - - {x: -119, y: -15}
+      - {x: -119, y: 17}
+      - {x: -87, y: 17}
+      - {x: -87, y: -15}
+    - - {x: -119, y: 24}
+      - {x: -119, y: 56}
+      - {x: -87, y: 56}
+      - {x: -87, y: 24}
+    - - {x: -87, y: 58}
+      - {x: -87, y: 90}
+      - {x: -55, y: 90}
+      - {x: -55, y: 58}
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Gallushi_CliffTiles_2023_08_09_0: -1009907792
+      Gallushi_CliffTiles_2023_08_09_1: 586253450
+      Gallushi_CliffTiles_2023_08_09_10: 1916336478
+      Gallushi_CliffTiles_2023_08_09_11: -741927876
+      Gallushi_CliffTiles_2023_08_09_12: -774970846
+      Gallushi_CliffTiles_2023_08_09_13: -210452386
+      Gallushi_CliffTiles_2023_08_09_14: -146860198
+      Gallushi_CliffTiles_2023_08_09_15: 1262229995
+      Gallushi_CliffTiles_2023_08_09_16: -1387438093
+      Gallushi_CliffTiles_2023_08_09_17: -987931908
+      Gallushi_CliffTiles_2023_08_09_18: 641715493
+      Gallushi_CliffTiles_2023_08_09_19: 684135030
+      Gallushi_CliffTiles_2023_08_09_2: -620654428
+      Gallushi_CliffTiles_2023_08_09_20: 2002700804
+      Gallushi_CliffTiles_2023_08_09_21: -1829929088
+      Gallushi_CliffTiles_2023_08_09_22: 1338501236
+      Gallushi_CliffTiles_2023_08_09_23: -1564726688
+      Gallushi_CliffTiles_2023_08_09_24: 592274206
+      Gallushi_CliffTiles_2023_08_09_3: 1824634246
+      Gallushi_CliffTiles_2023_08_09_4: -2007340869
+      Gallushi_CliffTiles_2023_08_09_5: -94632225
+      Gallushi_CliffTiles_2023_08_09_6: -1447135407
+      Gallushi_CliffTiles_2023_08_09_7: -1155816791
+      Gallushi_CliffTiles_2023_08_09_8: -1047547527
+      Gallushi_CliffTiles_2023_08_09_9: -1672691234
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

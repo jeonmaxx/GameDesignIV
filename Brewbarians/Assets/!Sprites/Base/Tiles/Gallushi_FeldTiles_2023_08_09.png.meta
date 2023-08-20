@@ -1,0 +1,761 @@
+fileFormatVersion: 2
+guid: 1d696e868f561ed438b8476f26bdac08
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gallushi_FeldTiles_2023_08_09_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 200
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcb783dfe3c9ab14e842699b998dc3ce
+      internalID: 1173913784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_FeldTiles_2023_08_09_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 200
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6132f6cfc462bad48983ba456f9d30f6
+      internalID: 435347452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_FeldTiles_2023_08_09_2
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 200
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c62a00439848b846b547d66950e19a8
+      internalID: 1681358804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_FeldTiles_2023_08_09_3
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 200
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822fb1335859453498ac67d53744055d
+      internalID: -529288493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_FeldTiles_2023_08_09_4
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 200
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4105e179d695b04ea4b2e13642dee67
+      internalID: -615066577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_FeldTiles_2023_08_09_5
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 200
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1cca32e43450141ae7232da59596f3
+      internalID: -1726684030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_FeldTiles_2023_08_09_6
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 158
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 146e088ef27963045a77d05de096ac8d
+      internalID: -1062057763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_FeldTiles_2023_08_09_7
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 158
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93fa32e72b5ea974f802d0e584eef224
+      internalID: 1826985692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_FeldTiles_2023_08_09_8
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 158
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01620ce25263aa34cb3458037659e0cb
+      internalID: 855861774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_FeldTiles_2023_08_09_9
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 158
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3875ef20237ef428543e8c6a3230a5
+      internalID: -943393141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_FeldTiles_2023_08_09_10
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 158
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32fda794a65d8554eacecd6be29533d7
+      internalID: 625361301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_FeldTiles_2023_08_09_11
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 158
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b38026bfef8a75a42941b9a5c9763172
+      internalID: -1075389937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_FeldTiles_2023_08_09_12
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72383f744eca079478e1c8f173073c23
+      internalID: 870459955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_FeldTiles_2023_08_09_13
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e0bce23f445c0e47ac959d2f1e57c48
+      internalID: -1359398162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_FeldTiles_2023_08_09_14
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8b11ad453b00e14ba3d42b48239cc46
+      internalID: 115142728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_FeldTiles_2023_08_09_15
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 748aebc54500cd14eb15f95c9e12bc01
+      internalID: -1924050320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_FeldTiles_2023_08_09_16
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87935273e90bd0e42b2100216df75989
+      internalID: -1220272230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_FeldTiles_2023_08_09_17
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 116
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 943b6ccb22282c740a3242dea2e4727c
+      internalID: 101585189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_FeldTiles_2023_08_09_18
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 85
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea126a630ce11874a925f5aaeb64ee28
+      internalID: -893229558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_FeldTiles_2023_08_09_19
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 47
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 086449c8b5d9ba24491f07b82cf7e08a
+      internalID: 328157645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_FeldTiles_2023_08_09_20
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 47
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48123f3fcc8037746ba4c6bcad556b3d
+      internalID: -1403194612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_FeldTiles_2023_08_09_21
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 47
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e59b43624bb1c45bc710ee0139de98
+      internalID: 1487769822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_FeldTiles_2023_08_09_22
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 47
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c161750009e33244a0d5c17edffe5c0
+      internalID: -937082289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_FeldTiles_2023_08_09_23
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 47
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b777b2356bc413a47bbb1c1905c968ec
+      internalID: 1662536458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_FeldTiles_2023_08_09_24
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 47
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fafa4a29472bf714ea5469c8cdb05368
+      internalID: -1355645411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_FeldTiles_2023_08_09_25
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 9
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c02f6a2b34edc40a4b04ea91a596d7
+      internalID: -127133395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_FeldTiles_2023_08_09_26
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 8
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f38450f816d2c47a921606ee178109
+      internalID: 944178966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_FeldTiles_2023_08_09_27
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 8
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e97b882f225d0f4c872f106fc7d4312
+      internalID: -673903043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gallushi_FeldTiles_2023_08_09_28
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 8
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 640184e7e694a294996e08dc54741161
+      internalID: -1842158752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a5dccb77980f0754aad8056291ec04cb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Gallushi_FeldTiles_2023_08_09_0: 1173913784
+      Gallushi_FeldTiles_2023_08_09_1: 435347452
+      Gallushi_FeldTiles_2023_08_09_10: 625361301
+      Gallushi_FeldTiles_2023_08_09_11: -1075389937
+      Gallushi_FeldTiles_2023_08_09_12: 870459955
+      Gallushi_FeldTiles_2023_08_09_13: -1359398162
+      Gallushi_FeldTiles_2023_08_09_14: 115142728
+      Gallushi_FeldTiles_2023_08_09_15: -1924050320
+      Gallushi_FeldTiles_2023_08_09_16: -1220272230
+      Gallushi_FeldTiles_2023_08_09_17: 101585189
+      Gallushi_FeldTiles_2023_08_09_18: -893229558
+      Gallushi_FeldTiles_2023_08_09_19: 328157645
+      Gallushi_FeldTiles_2023_08_09_2: 1681358804
+      Gallushi_FeldTiles_2023_08_09_20: -1403194612
+      Gallushi_FeldTiles_2023_08_09_21: 1487769822
+      Gallushi_FeldTiles_2023_08_09_22: -937082289
+      Gallushi_FeldTiles_2023_08_09_23: 1662536458
+      Gallushi_FeldTiles_2023_08_09_24: -1355645411
+      Gallushi_FeldTiles_2023_08_09_25: -127133395
+      Gallushi_FeldTiles_2023_08_09_26: 944178966
+      Gallushi_FeldTiles_2023_08_09_27: -673903043
+      Gallushi_FeldTiles_2023_08_09_28: -1842158752
+      Gallushi_FeldTiles_2023_08_09_3: -529288493
+      Gallushi_FeldTiles_2023_08_09_4: -615066577
+      Gallushi_FeldTiles_2023_08_09_5: -1726684030
+      Gallushi_FeldTiles_2023_08_09_6: -1062057763
+      Gallushi_FeldTiles_2023_08_09_7: 1826985692
+      Gallushi_FeldTiles_2023_08_09_8: 855861774
+      Gallushi_FeldTiles_2023_08_09_9: -943393141
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
