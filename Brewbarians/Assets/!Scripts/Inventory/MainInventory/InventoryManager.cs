@@ -74,7 +74,7 @@ public class InventoryManager : MonoBehaviour
             }
         }
 
-        if (item.type == ItemType.Seed)
+        if (item.type == ItemType.Seed && seedWheel.Length > 0)
         {
             //Check if any slot has the same item with count lower than max
             for (int i = 0; i < seedWheel.Length; i++)

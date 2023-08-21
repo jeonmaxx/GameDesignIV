@@ -64,14 +64,11 @@ public class DataCollector : MonoBehaviour
     public InventoryManager inventoryManager;
     public RecipeManager recipeManager;
     public PointsCollector pointsCollector;
-    public FarmingManager farmingManager;
-    public BrewStationManager brewStationManager;
     public TutorialDialogue tutorial;
 
     [Header("Data")]
     public Vector3 playerPosition;
     public List<MainItems> mainItems;
-    public List<MainSeeds> mainSeeds;
     public List<Recipe> recipes;
     public Vector3 Points;
     private float farmPoints;
@@ -115,20 +112,6 @@ public class DataCollector : MonoBehaviour
             }
         }
 
-        //Seeds
-        mainSeeds = new List<MainSeeds>();
-        for (int i = 0; i < inventoryManager.seedWheel.Length; i++)
-        {
-            if (inventoryManager.seedWheel[i].transform.childCount != 0)
-            {
-                tmpInven = inventoryManager.seedWheel[i].transform.GetChild(0).GetComponent<InventoryItem>();
-                mainSeeds.Add(new MainSeeds(tmpInven.item, tmpInven.count));
-            }
-            else
-            {
-                mainSeeds.Add(null);
-            }
-        }
 
         //Recipes
         recipes = new List<Recipe>();
@@ -164,27 +147,7 @@ public class DataCollector : MonoBehaviour
             SaveGameManager.SaveToJSON<Tutorial>(tutorialList, "tutorial.json");
         }
 
-
-        //Brewing
-        if (SceneManager.GetActiveScene().buildIndex == 2)
-        {
-            brewStationManager.AddData();
-            SaveGameManager.SaveToJSON<BrewData>(brewStationManager.brewData, "brewing.json");
-        }
-
-        //Plants and Fields
-        if (SceneManager.GetActiveScene().buildIndex == 1)
-        {
-            farmingManager.AddToList();
-            SaveGameManager.SaveToJSON<Plants>(farmingManager.plants, "plants.json");
-            SaveGameManager.SaveToJSON<Fields>(farmingManager.fields, "fields.json");
-            SaveGameManager.SaveToJSON<Item>(farmingManager.signSeed, "signSeeds.json");
-        }
-
-
         //SaveGameManager.SaveToJSON(playerPosition, "position.json");
-        SaveGameManager.SaveToJSON<MainItems>(mainItems, "items.json");
-        SaveGameManager.SaveToJSON<MainSeeds>(mainSeeds, "seeds.json");
         SaveGameManager.SaveToJSON<Recipe>(recipes, "recipes.json");
         SaveGameManager.SaveToJSON(Points, "points.json");
         SaveGameManager.SaveToJSON(scene, "scene.json");
@@ -196,30 +159,16 @@ public class DataCollector : MonoBehaviour
     {
         //playerPosition = SaveGameManager.ReadFromJSON<Vector3>("position.json");
         mainItems = SaveGameManager.ReadListFromJSON<MainItems>("items.json");
-        mainSeeds = SaveGameManager.ReadListFromJSON<MainSeeds>("seeds.json");
         recipes = SaveGameManager.ReadListFromJSON<Recipe>("recipes.json");
         Points = SaveGameManager.ReadFromJSON<Vector3>("points.json");
         scene = SaveGameManager.ReadFromJSON<Vector2>("scene.json");
-
-        farmingManager.plants = SaveGameManager.ReadListFromJSON<Plants>("plants.json");
-        farmingManager.fields = SaveGameManager.ReadListFromJSON<Fields>("fields.json");
-        farmingManager.signSeed = SaveGameManager.ReadListFromJSON<Item>("signSeeds.json");
-
-        brewStationManager.brewData = SaveGameManager.ReadListFromJSON<BrewData>("brewing.json");
 
         tutorialList = SaveGameManager.ReadListFromJSON<Tutorial>("tutorial.json");
 
         //Changes Player Position
         //playerMovement.gameObject.transform.position = playerPosition;
 
-        if (SceneManager.GetActiveScene().buildIndex == 1)
-            farmingManager.UpdateFields();
-
-        if(SceneManager.GetActiveScene().buildIndex == 2)
-            brewStationManager.LoadData();
-
         LoadItems();
-        LoadSeeds();
         LoadRecipes();
 
         bushLists = SaveGameManager.ReadListFromJSON<BushLists>("bushes.json");
@@ -248,12 +197,6 @@ public class DataCollector : MonoBehaviour
     {
         DeleteItems();
         GiveItems();
-    }
-
-    public void LoadSeeds()
-    {
-        DeleteSeeds();
-        GiveSeeds();
     }
 
     public void LoadRecipes()
@@ -285,39 +228,6 @@ public class DataCollector : MonoBehaviour
                     GameObject newItemGo = Instantiate(inventoryManager.inventoryItemPrefab, inventoryManager.inventorySlots[i].transform);
                     inventoryItem = newItemGo.GetComponent<InventoryItem>();
                     inventoryItem.InitialiseItem(mainItems[i].MainItem);
-                }
-                else if (j > 0)
-                {
-                    inventoryItem.count++;
-                    inventoryItem.RefreshCount();
-                }
-            }
-        }
-    }
-
-    private void DeleteSeeds()
-    {
-        for (int i = 0; i < inventoryManager.seedWheel.Length; i++)
-        {
-            if (inventoryManager.seedWheel[i].transform.childCount != 0)
-            {
-                Destroy(inventoryManager.seedWheel[i].transform.GetChild(0).gameObject);
-            }
-        }
-    }
-    private void GiveSeeds()
-    {
-        for (int i = 0; i < mainSeeds.Count; i++)
-        {
-            InventoryItem inventoryItem = null;
-            tmpCount = mainSeeds[i].Counter;
-            for (int j = 0; j < tmpCount; j++)
-            {
-                if (j == 0)
-                {
-                    GameObject newItemGo = Instantiate(inventoryManager.inventoryItemPrefab, inventoryManager.seedWheel[i].transform);
-                    inventoryItem = newItemGo.GetComponent<InventoryItem>();
-                    inventoryItem.InitialiseItem(mainSeeds[i].MainSeed);
                 }
                 else if (j > 0)
                 {
