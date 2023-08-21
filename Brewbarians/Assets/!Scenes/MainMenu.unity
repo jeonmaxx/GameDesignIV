@@ -2030,7 +2030,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dataCollector: {fileID: 0}
-  tmpIndex: 4
+  tmpIndex: 1
 --- !u!4 &1254815897
 Transform:
   m_ObjectHideFlags: 0
