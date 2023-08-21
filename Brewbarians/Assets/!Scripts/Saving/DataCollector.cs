@@ -85,7 +85,7 @@ public class DataCollector : MonoBehaviour
 
     public void Start()
     {
-        string filePath = Application.persistentDataPath + "/" + "scene.json";
+        string filePath = Application.persistentDataPath + "/" + "sceneGD.json";
         Debug.Log(filePath);
 
         if (File.Exists(filePath) && new FileInfo(filePath).Length > 0 )
@@ -137,20 +137,20 @@ public class DataCollector : MonoBehaviour
         {
             saveBushes.CollectBushes();
             SavingBushes();
-            SaveGameManager.SaveToJSON<BushLists>(bushLists, "bushes.json");
+            SaveGameManager.SaveToJSON<BushLists>(bushLists, "bushesGD.json");
         }
 
         //Tutorial
         if (tutorial != null)
         {
             tutorialList.Add(new Tutorial(tutorial.diaList, tutorial.state, tutorial.newState, tutorial.itemGiven, tutorial.enablePopup));
-            SaveGameManager.SaveToJSON<Tutorial>(tutorialList, "tutorial.json");
+            SaveGameManager.SaveToJSON<Tutorial>(tutorialList, "tutorialGD.json");
         }
 
         //SaveGameManager.SaveToJSON(playerPosition, "position.json");
-        SaveGameManager.SaveToJSON<Recipe>(recipes, "recipes.json");
-        SaveGameManager.SaveToJSON(Points, "points.json");
-        SaveGameManager.SaveToJSON(scene, "scene.json");
+        SaveGameManager.SaveToJSON<Recipe>(recipes, "recipesGD.json");
+        SaveGameManager.SaveToJSON(Points, "pointsGD.json");
+        SaveGameManager.SaveToJSON(scene, "sceneGD.json");
         
     }
 
@@ -158,12 +158,12 @@ public class DataCollector : MonoBehaviour
     public void GiveData()
     {
         //playerPosition = SaveGameManager.ReadFromJSON<Vector3>("position.json");
-        mainItems = SaveGameManager.ReadListFromJSON<MainItems>("items.json");
-        recipes = SaveGameManager.ReadListFromJSON<Recipe>("recipes.json");
-        Points = SaveGameManager.ReadFromJSON<Vector3>("points.json");
-        scene = SaveGameManager.ReadFromJSON<Vector2>("scene.json");
+        mainItems = SaveGameManager.ReadListFromJSON<MainItems>("itemsGD.json");
+        recipes = SaveGameManager.ReadListFromJSON<Recipe>("recipesGD.json");
+        Points = SaveGameManager.ReadFromJSON<Vector3>("pointsGD.json");
+        scene = SaveGameManager.ReadFromJSON<Vector2>("sceneGD.json");
 
-        tutorialList = SaveGameManager.ReadListFromJSON<Tutorial>("tutorial.json");
+        tutorialList = SaveGameManager.ReadListFromJSON<Tutorial>("tutorialGD.json");
 
         //Changes Player Position
         //playerMovement.gameObject.transform.position = playerPosition;
@@ -171,7 +171,7 @@ public class DataCollector : MonoBehaviour
         LoadItems();
         LoadRecipes();
 
-        bushLists = SaveGameManager.ReadListFromJSON<BushLists>("bushes.json");
+        bushLists = SaveGameManager.ReadListFromJSON<BushLists>("bushesGD.json");
         if(bushLists != null)
             GivingBushes();
 

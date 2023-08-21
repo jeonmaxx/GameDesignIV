@@ -18,7 +18,7 @@ public class SceneTester : MonoBehaviour
 
     public void LoadGame()
     {
-        if (File.Exists(path + "scene.json"))
+        if (File.Exists(path + "sceneGD.json"))
         {
             Vector2 tmp = SaveGameManager.ReadFromJSON<Vector2>("scene.json");
             tmpIndex = (int)tmp.x;
@@ -28,17 +28,12 @@ public class SceneTester : MonoBehaviour
 
     public void NewGame()
     {
-        DeleteData("scene.json");
-        DeleteData("items.json");
-        DeleteData("seeds.json");
-        DeleteData("recipes.json");
-        DeleteData("points.json");
-        DeleteData("plants.json");
-        DeleteData("fields.json");
-        DeleteData("signSeeds.json");
-        DeleteData("brewing.json");
-        DeleteData("tutorial.json");
-        DeleteData("bushes.json");
+        DeleteData("sceneGD.json");
+        DeleteData("itemsGD.json");
+        DeleteData("recipesGD.json");
+        DeleteData("pointsGD.json");
+        DeleteData("tutorialGD.json");
+        DeleteData("bushesGD.json");
         SceneManager.LoadScene(tmpIndex);
     }
 
