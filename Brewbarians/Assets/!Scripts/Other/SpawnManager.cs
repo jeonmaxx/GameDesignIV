@@ -30,8 +30,8 @@ public class SpawnManager : MonoBehaviour
 
     private void Awake()
     {
-        string filePath = Application.persistentDataPath + "/" + "scene.json";
-        sceneData = SaveGameManager.ReadFromJSON<Vector2>("scene.json");
+        string filePath = Application.persistentDataPath + "/" + "sceneGD.json";
+        sceneData = SaveGameManager.ReadFromJSON<Vector2>("sceneGD.json");
         if ((!File.Exists(filePath) || new FileInfo(filePath).Length <= 0) && SceneManager.GetActiveScene().buildIndex == 4)
         {
             player.transform.position = new Vector3(-5.9f, 6.6f, 0);
@@ -55,14 +55,17 @@ public class SpawnManager : MonoBehaviour
 
     private void Update()
     {
-        if(alpha > 0 && startFadeOut)
+        if (introPic != null)
         {
-            alpha -= Time.deltaTime * 0.8f;
-            introPic.color = new Color(introPic.color.r, introPic.color.g, introPic.color.b, alpha);
-        }
-        else if (alpha < 0.1f && startFadeOut)
-        {
-            introPic.gameObject.SetActive(false);
+            if (alpha > 0 && startFadeOut)
+            {
+                alpha -= Time.deltaTime * 0.8f;
+                introPic.color = new Color(introPic.color.r, introPic.color.g, introPic.color.b, alpha);
+            }
+            else if (alpha < 0.1f && startFadeOut)
+            {
+                introPic.gameObject.SetActive(false);
+            }
         }
     }
 
