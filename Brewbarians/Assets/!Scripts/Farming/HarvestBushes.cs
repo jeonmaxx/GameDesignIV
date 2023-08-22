@@ -9,6 +9,12 @@ public class HarvestBushes : PlayerNear, IPointerDownHandler
     public Item harvestItem;
     public bool emptyBool;
     public InventoryManager inventoryManager;
+    private MouseOnInteractable onInteractable;
+
+    private void Start()
+    {
+        onInteractable = GetComponent<MouseOnInteractable>();
+    }
 
     private void Update()
     {
@@ -16,8 +22,8 @@ public class HarvestBushes : PlayerNear, IPointerDownHandler
         {
             SpriteRenderer bushImage = GetComponent<SpriteRenderer>();
             bushImage.sprite = emptyImage;
+            onInteractable.interactable = false;
         }
-
     }
 
     public void OnPointerDown(PointerEventData eventData)
