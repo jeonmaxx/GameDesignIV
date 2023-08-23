@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerNear : MonoBehaviour
 {
     public bool isPlayerNear;
-    public int range;
+    public int range = 2;
     [HideInInspector] public GameObject player;
     [HideInInspector] public Vector3 playerTran;
 
