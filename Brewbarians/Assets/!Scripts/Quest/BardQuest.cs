@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.LowLevel;
 
 [Serializable]
 public class QuestList
@@ -29,6 +30,10 @@ public class BardQuest : PlayerNear
     public Item searchedItem;
     public InputActionReference inputAction;
     private InputAction action;
+    public GameObject exclaPrefab;
+    public bool newStage;
+    public InventoryManager inventoryManager;
+    public GameObject ItemObj;
 
     public void Start()
     {
@@ -38,8 +43,18 @@ public class BardQuest : PlayerNear
     private void Update()
     {
         action.started += _ => OnInteract();
-
         CalcDistance();
+
+        if (newStage && transform.childCount == 0)
+        {
+            Instantiate(exclaPrefab, transform);
+        }
+        else if (!newStage && transform.childCount != 0)
+        {
+            Destroy(transform.GetChild(0).gameObject);
+        }
+
+
 
         for (int i = 0; i < questList.Count; i++)
         {
@@ -53,13 +68,48 @@ public class BardQuest : PlayerNear
                 NextStage((QuestStage)(i + 1), questList[i].Done);
             }
         }
+
+        if(currentStage == QuestStage.Introduction)
+        {
+            newStage = true;
+        }
+
+        if (currentStage == QuestStage.QuestRepeat)
+        {
+            for (int i = 0; i < inventoryManager.inventorySlots.Length; i++)
+            {
+                if (inventoryManager.inventorySlots[i].transform.childCount != 0 && inventoryManager.inventorySlots[i].transform.GetChild(0).GetComponent<InventoryItem>().item == searchedItem)
+                {
+                    ItemObj = inventoryManager.inventorySlots[i].transform.GetChild(0).gameObject;
+                    questList[1].Done = true;
+                    newStage = true;
+                }
+
+            }
+        }
     }
 
     public void OnInteract()
-    {
+    {   
         if (isPlayerNear)
         {
             trigger.StartDialogue();
+            switch (currentStage)
+            {
+               case QuestStage.Introduction:
+                    newStage = false;
+                    questList[0].Done = true;
+                    break;
+                case QuestStage.QuestRepeat:
+                    break;
+                case QuestStage.GiveItem:
+                    newStage = false;
+                    Destroy(ItemObj.gameObject);
+                    questList[2].Done = true;
+                    break;
+                case QuestStage.Done:
+                    break;
+            }
         }
     }
 

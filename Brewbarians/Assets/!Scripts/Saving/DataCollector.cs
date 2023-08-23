@@ -29,21 +29,19 @@ public class MainSeeds
 }
 
 [Serializable]
-public class Tutorial
+public class Quest
 {
-    public List<DialogueList> TutDia;
-    public TutorialState State;
+    public List<QuestList> QuestLists;
+    public QuestStage Stage;
     public bool NewState;
-    public bool ItemGiven;
-    public bool EnablePopup;
+    public bool PickedUp;
 
-    public Tutorial(List<DialogueList> tutDia, TutorialState state, bool newState, bool itemGiven, bool enablePopup)
+    public Quest(List<QuestList> questLists, QuestStage stage, bool newState, bool pickedUp)
     {
-        TutDia = tutDia;
-        State = state;
+        QuestLists = questLists;
+        Stage = stage;
         NewState = newState;
-        ItemGiven = itemGiven;
-        EnablePopup = enablePopup;
+        PickedUp = pickedUp;
     }
 }
 
@@ -64,7 +62,8 @@ public class DataCollector : MonoBehaviour
     public InventoryManager inventoryManager;
     public RecipeManager recipeManager;
     public PointsCollector pointsCollector;
-    public TutorialDialogue tutorial;
+    public BardQuest questDia;
+    public PickUpItem pickUp;
 
     [Header("Data")]
     public Vector3 playerPosition;
@@ -75,7 +74,7 @@ public class DataCollector : MonoBehaviour
     private float brewPoints;
     private float dayPoints;
     public Vector2 scene;
-    public List<Tutorial> tutorialList;
+    public List<Quest> questList;
 
     private InventoryItem tmpInven;
     private int tmpCount;
@@ -141,14 +140,13 @@ public class DataCollector : MonoBehaviour
         }
 
         //Tutorial
-        if (tutorial != null)
+        if (questDia != null)
         {
-            tutorialList.Add(new Tutorial(tutorial.diaList, tutorial.state, tutorial.newState, tutorial.itemGiven, tutorial.enablePopup));
-            SaveGameManager.SaveToJSON<Tutorial>(tutorialList, "tutorialGD.json");
+            questList.Add(new Quest(questDia.questList, questDia.currentStage, questDia.newStage, pickUp.pickedUp));
+            SaveGameManager.SaveToJSON<Quest>(questList, "questGD.json");
         }
 
         //SaveGameManager.SaveToJSON(playerPosition, "position.json");
-        SaveGameManager.SaveToJSON<Recipe>(recipes, "recipesGD.json");
         SaveGameManager.SaveToJSON(Points, "pointsGD.json");
         SaveGameManager.SaveToJSON(scene, "sceneGD.json");
         
@@ -163,7 +161,7 @@ public class DataCollector : MonoBehaviour
         Points = SaveGameManager.ReadFromJSON<Vector3>("pointsGD.json");
         scene = SaveGameManager.ReadFromJSON<Vector2>("sceneGD.json");
 
-        tutorialList = SaveGameManager.ReadListFromJSON<Tutorial>("tutorialGD.json");
+        questList = SaveGameManager.ReadListFromJSON<Quest>("questGD.json");
 
         //Changes Player Position
         //playerMovement.gameObject.transform.position = playerPosition;
@@ -180,15 +178,14 @@ public class DataCollector : MonoBehaviour
         pointsCollector.addedBrewPoints = Points.y;
         pointsCollector.dayTime = Points.z;
 
-        if (tutorial != null)
+        if (questDia != null)
         {
-            for (int i = 0; i < tutorialList.Count; i++)
+            for (int i = 0; i < questList.Count; i++)
             {
-                tutorial.diaList = tutorialList[i].TutDia;
-                tutorial.state = tutorialList[i].State;
-                tutorial.newState = tutorialList[i].NewState;
-                tutorial.itemGiven = tutorialList[i].ItemGiven;
-                tutorial.enablePopup = tutorialList[i].EnablePopup;
+                questDia.questList = questList[i].QuestLists;
+                questDia.currentStage= questList[i].Stage;
+                questDia.newStage = questList[i].NewState;
+                pickUp.pickedUp = questList[i].PickedUp;
             }
         }
     }

@@ -15,7 +15,7 @@ public class BushData
     }
 }
 
-public enum BushScene {Village, Harbor, Farmland}
+public enum BushScene {CliffSide, Cave01, Cave02}
 public class SaveBushes : MonoBehaviour
 {
     //Notiz:
@@ -23,14 +23,6 @@ public class SaveBushes : MonoBehaviour
     //saving 3 Listen (wo je die Büsche mit ihren States drin sind)
     public BushData bushData;
     public List<HarvestBushes> bushes;
-
-    //public void Update()
-    //{
-    //    if (updated)
-    //    {
-    //        CollectBushes();
-    //    }
-    //}
 
     public void CollectBushes()
     {
