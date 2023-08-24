@@ -1,0 +1,255 @@
+fileFormatVersion: 2
+guid: cfad3f3aa9b148d4eb283be3c99f950e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Kurth_Barde_Musik_Unten_Sprite_2023_07_29_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 52
+        width: 52
+        height: 52
+      alignment: 9
+      pivot: {x: 0.26890057, y: 0.50583357}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c4a8aa53795c24799051f82ccb3d6c
+      internalID: -1105965432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kurth_Barde_Musik_Unten_Sprite_2023_07_29_1
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 52
+        width: 52
+        height: 52
+      alignment: 9
+      pivot: {x: 0.2695044, y: 0.50870895}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de290a708071c9b409d0c227d9c8a726
+      internalID: 1102677732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kurth_Barde_Musik_Unten_Sprite_2023_07_29_2
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 52
+        width: 52
+        height: 52
+      alignment: 9
+      pivot: {x: 0.26929575, y: 0.50801045}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d6f13868fe3654e86fb641861a56c3
+      internalID: -1355145232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kurth_Barde_Musik_Unten_Sprite_2023_07_29_3
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 52
+        width: 52
+        height: 52
+      alignment: 9
+      pivot: {x: 0.26886398, y: 0.50883645}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e17d14f40783743ab8a26c7f875cb0
+      internalID: 1201119744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kurth_Barde_Musik_Unten_Sprite_2023_07_29_4
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 52
+        width: 52
+        height: 52
+      alignment: 9
+      pivot: {x: 0.27019325, y: 0.50858206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb82bd7729d0479469be80d4cafb8489
+      internalID: -1579472065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kurth_Barde_Musik_Unten_Sprite_2023_07_29_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 52
+        height: 52
+      alignment: 9
+      pivot: {x: 0.2690955, y: 0.5084428}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2023c4ae5367d645bcb5f6d9680a581
+      internalID: 510241488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a0afd8f96efab2b408b3c6fad2bb5351
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Kurth_Barde_Musik_Unten_Sprite_2023_07_29_0: -1105965432
+      Kurth_Barde_Musik_Unten_Sprite_2023_07_29_1: 1102677732
+      Kurth_Barde_Musik_Unten_Sprite_2023_07_29_2: -1355145232
+      Kurth_Barde_Musik_Unten_Sprite_2023_07_29_3: 1201119744
+      Kurth_Barde_Musik_Unten_Sprite_2023_07_29_4: -1579472065
+      Kurth_Barde_Musik_Unten_Sprite_2023_07_29_5: 510241488
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
