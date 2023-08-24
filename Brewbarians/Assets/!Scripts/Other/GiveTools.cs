@@ -7,9 +7,9 @@ public class GiveTools : MonoBehaviour
     public Item[] tools;
     public void Start()
     {
-        string path = Application.persistentDataPath + "/" + "sceneGD.json";
+        string path = Application.persistentDataPath + "/sceneGD.json";
 
-        if (!File.Exists(path + "sceneGD.json"))
+        if (!File.Exists(path))
         {
             for(int i = 0; i < tools.Length; i++)
             {
