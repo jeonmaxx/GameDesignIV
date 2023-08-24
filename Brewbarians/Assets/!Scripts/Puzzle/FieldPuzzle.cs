@@ -32,6 +32,7 @@ public class FieldPuzzle : MonoBehaviour
         {
             doorOpen = true;
             //Sound Abspielen
+            //Tür freischalten
         }
     }
 }

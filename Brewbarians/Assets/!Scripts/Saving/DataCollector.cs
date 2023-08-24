@@ -152,6 +152,7 @@ public class DataCollector : MonoBehaviour
         //SaveGameManager.SaveToJSON(playerPosition, "position.json");
         SaveGameManager.SaveToJSON(Points, "pointsGD.json");
         SaveGameManager.SaveToJSON(scene, "sceneGD.json");
+        SaveGameManager.SaveToJSON(mainItems, "itemsGD.json");
         
     }
 
