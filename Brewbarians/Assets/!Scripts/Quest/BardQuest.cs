@@ -34,6 +34,11 @@ public class BardQuest : PlayerNear
     public bool newStage;
     public InventoryManager inventoryManager;
     public GameObject ItemObj;
+    public Animator anim;
+    private bool stageChecked;
+    public Vector3 afterQuestPos;
+    public Recipe givenRecipe;
+    public RecipeManager recipeManager;
 
     public void Start()
     {
@@ -43,6 +48,19 @@ public class BardQuest : PlayerNear
     private void Update()
     {
         action.started += _ => OnInteract();
+
+        if (currentStage == QuestStage.Done && !stageChecked)
+        {
+            transform.position = afterQuestPos;
+            anim.enabled = true;
+            stageChecked = true;
+        }
+        else if(currentStage != QuestStage.Done && !stageChecked)
+        {
+            anim.enabled = false;
+            stageChecked = true;
+        }
+
         CalcDistance();
 
         if (newStage && transform.childCount == 0)
@@ -105,6 +123,7 @@ public class BardQuest : PlayerNear
                 case QuestStage.GiveItem:
                     newStage = false;
                     Destroy(ItemObj.gameObject);
+                    recipeManager.AddRecipe(givenRecipe);
                     questList[2].Done = true;
                     break;
                 case QuestStage.Done:

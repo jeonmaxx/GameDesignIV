@@ -120,7 +120,10 @@ public class DataCollector : MonoBehaviour
             {
                 recipes.Add(recipeManager.recipeHolder.transform.GetChild(i).GetComponent<RecipeItem>().recipe);
             }
+
+            SaveGameManager.SaveToJSON<Recipe>(recipes, "recipesGD.json");
         }
+        
 
         //GrowingPoints
         farmPoints = pointsCollector.addedFarmPoints;
@@ -172,7 +175,6 @@ public class DataCollector : MonoBehaviour
         bushLists = SaveGameManager.ReadListFromJSON<BushLists>("bushesGD.json");
         if(bushLists != null)
             GivingBushes();
-
 
         pointsCollector.addedFarmPoints = Points.x;
         pointsCollector.addedBrewPoints = Points.y;

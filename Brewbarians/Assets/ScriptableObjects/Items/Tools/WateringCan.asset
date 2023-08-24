@@ -20,5 +20,5 @@ MonoBehaviour:
   image: {fileID: 21300000, guid: e4e5d206471e653468e59d69e1be7639, type: 3}
   itemName: Watering Can
   waterAmount: 10
-  currentWater: 2
+  currentWater: 10
   seed: {fileID: 0}

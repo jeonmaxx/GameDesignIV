@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.InputSystem;
+using TMPro;
 
 public class DialogueManager : MonoBehaviour
 {
     public Image actorImage;
-    public Text actorName;
-    public Text messageText;
+    public TextMeshProUGUI actorName;
+    public TextMeshProUGUI messageText;
     public RectTransform backgroundBox;
 
     [HideInInspector] public Message[] currentMessages;
