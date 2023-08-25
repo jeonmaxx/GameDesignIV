@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using UnityEditor.Animations;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -37,6 +38,7 @@ public class BardQuest : PlayerNear
     public Vector3 afterQuestPos;
     public Recipe givenRecipe;
     public RecipeManager recipeManager;
+    public AnimatorController newAnim;
 
     public void Start()
     {
@@ -50,12 +52,11 @@ public class BardQuest : PlayerNear
         if (currentStage == QuestStage.Done && !stageChecked)
         {
             transform.position = afterQuestPos;
-            anim.enabled = true;
+            anim.runtimeAnimatorController = newAnim;
             stageChecked = true;
         }
         else if(currentStage != QuestStage.Done && !stageChecked)
         {
-            anim.enabled = false;
             stageChecked = true;
         }
 
