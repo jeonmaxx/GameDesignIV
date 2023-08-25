@@ -1262,7 +1262,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3792341413740217723, guid: 138025f25e4ed3d438dd2efc11d05d10, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -3348501.2
+      value: -3355768.8
       objectReference: {fileID: 0}
     - target: {fileID: 5574380894860116185, guid: 138025f25e4ed3d438dd2efc11d05d10, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -3176,7 +3176,7 @@ Tilemap:
       - {fileID: 21300000, guid: 10bb5d7452f998b4e8efe880ffd877da, type: 3}
       - {fileID: 21300000, guid: 7dfd503cd449c0c47b7662b2af8c6063, type: 3}
       - {fileID: 21300000, guid: 67c4120483bbfc0439c6b40ea7ed1e95, type: 3}
-      m_AnimationSpeed: 1.5000001
+      m_AnimationSpeed: 1.5
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 11, y: 23, z: 0}
@@ -3257,7 +3257,7 @@ Tilemap:
       - {fileID: 21300000, guid: 10bb5d7452f998b4e8efe880ffd877da, type: 3}
       - {fileID: 21300000, guid: 7dfd503cd449c0c47b7662b2af8c6063, type: 3}
       - {fileID: 21300000, guid: 67c4120483bbfc0439c6b40ea7ed1e95, type: 3}
-      m_AnimationSpeed: 1.5000001
+      m_AnimationSpeed: 1.5
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 5, y: 24, z: 0}
@@ -3374,7 +3374,7 @@ Tilemap:
       - {fileID: 21300000, guid: 10bb5d7452f998b4e8efe880ffd877da, type: 3}
       - {fileID: 21300000, guid: 7dfd503cd449c0c47b7662b2af8c6063, type: 3}
       - {fileID: 21300000, guid: 67c4120483bbfc0439c6b40ea7ed1e95, type: 3}
-      m_AnimationSpeed: 1.5000001
+      m_AnimationSpeed: 1.5
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 16, y: 25, z: 0}
@@ -27569,7 +27569,7 @@ MonoBehaviour:
   m_LightType: 3
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.8352941, b: 0.63529414, a: 1}
   m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
@@ -34331,6 +34331,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87b1362a955455c43b1e4fd52a70496b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2117936607 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3601626670163804850, guid: d1dfdbdc8c11ef34b8f401d7556bad47, type: 3}
+  m_PrefabInstance: {fileID: 1297049013}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 687a42981df8d4e4b994d148950c95f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &2134510889 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 747080193917327169, guid: ce5e83b342d84684eb7ba594da2826a8, type: 3}
@@ -34467,9 +34478,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1555428681}
     - target: {fileID: 214065817826841554, guid: 3bb24f974d98f2749b29db6f83f773e9, type: 3}
+      propertyPath: fieldPuzzle
+      value: 
+      objectReference: {fileID: 2117936607}
+    - target: {fileID: 214065817826841554, guid: 3bb24f974d98f2749b29db6f83f773e9, type: 3}
       propertyPath: playerMovement
       value: 
       objectReference: {fileID: 506596161}
+    - target: {fileID: 214065817826841554, guid: 3bb24f974d98f2749b29db6f83f773e9, type: 3}
+      propertyPath: puzzleList.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 214065817826841556, guid: 3bb24f974d98f2749b29db6f83f773e9, type: 3}
       propertyPath: recipe
       value: 

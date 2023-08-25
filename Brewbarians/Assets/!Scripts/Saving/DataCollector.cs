@@ -64,9 +64,9 @@ public class DataCollector : MonoBehaviour
     public PointsCollector pointsCollector;
     public BardQuest questDia;
     public PickUpItem pickUp;
+    public FieldPuzzle fieldPuzzle;
 
     [Header("Data")]
-    public Vector3 playerPosition;
     public List<MainItems> mainItems;
     public List<Recipe> recipes;
     public Vector3 Points;
@@ -75,6 +75,7 @@ public class DataCollector : MonoBehaviour
     private float dayPoints;
     public Vector2 scene;
     public List<Quest> questList;
+    public List<bool> puzzleList;
 
     private InventoryItem tmpInven;
     private int tmpCount;
@@ -124,6 +125,15 @@ public class DataCollector : MonoBehaviour
             SaveGameManager.SaveToJSON<Recipe>(recipes, "recipesGD.json");
         }
         
+        //Puzzle Bools
+        if(fieldPuzzle != null)
+        {
+            puzzleList = new List<bool>
+            {
+                fieldPuzzle.doorOpen
+            };
+            SaveGameManager.SaveToJSON<bool>(puzzleList, "puzzleGD.json");
+        }
 
         //GrowingPoints
         farmPoints = pointsCollector.addedFarmPoints;
@@ -148,8 +158,7 @@ public class DataCollector : MonoBehaviour
             questList.Add(new Quest(questDia.questList, questDia.currentStage, questDia.newStage, pickUp.pickedUp));
             SaveGameManager.SaveToJSON<Quest>(questList, "questGD.json");
         }
-
-        //SaveGameManager.SaveToJSON(playerPosition, "position.json");
+        
         SaveGameManager.SaveToJSON(Points, "pointsGD.json");
         SaveGameManager.SaveToJSON(scene, "sceneGD.json");
         SaveGameManager.SaveToJSON(mainItems, "itemsGD.json");
@@ -167,8 +176,13 @@ public class DataCollector : MonoBehaviour
 
         questList = SaveGameManager.ReadListFromJSON<Quest>("questGD.json");
 
-        //Changes Player Position
-        //playerMovement.gameObject.transform.position = playerPosition;
+        string puzzlePath = Application.persistentDataPath + "/" + "puzzleGD.json";
+        //Puzzle bools
+        if (fieldPuzzle != null && File.Exists(puzzlePath))
+        {
+            puzzleList = SaveGameManager.ReadListFromJSON<bool>("puzzleGD.json");
+            fieldPuzzle.doorOpen = puzzleList[0];
+        }
 
         LoadItems();
         LoadRecipes();

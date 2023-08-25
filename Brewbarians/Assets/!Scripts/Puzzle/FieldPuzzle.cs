@@ -39,7 +39,6 @@ public class FieldPuzzle : MonoBehaviour
         if(doorOpen)
         {
             //Sound Abspielen
-            //Tür freischalten
             bridgeObj.GetComponent<SpriteRenderer>().sprite = newBridge;
             bridgeObj.GetComponent<BoxCollider2D>().enabled = false;
 

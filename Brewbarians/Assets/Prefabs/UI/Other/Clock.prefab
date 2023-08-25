@@ -73,10 +73,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3e5139f556df8b478c09f19120ef5e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxDayTime: 6
+  maxDayTime: 7
   currentTime: 0
   TimeArrow: {fileID: 4533954927228535483}
   nightTime: {fileID: 4414989831390412475}
+  playAmbiente: 0
+  dayMusic: {fileID: 0}
+  eveningMusic: {fileID: 0}
   collector: {fileID: 0}
   night: 0
   bed: {fileID: 0}
@@ -84,6 +87,7 @@ MonoBehaviour:
   blackScreen: {fileID: 0}
   wakingUpText: {fileID: 0}
   loadNext: {fileID: 0}
+  source: {fileID: 0}
 --- !u!1 &1862973530224904166
 GameObject:
   m_ObjectHideFlags: 0
