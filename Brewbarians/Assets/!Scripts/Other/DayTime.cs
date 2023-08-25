@@ -1,6 +1,7 @@
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Rendering.Universal;
 using UnityEngine.UI;
 
 public class DayTime : MonoBehaviour
@@ -8,15 +9,12 @@ public class DayTime : MonoBehaviour
     public float maxDayTime = 10;
     public float currentTime;
     public Transform TimeArrow;
-    public Image nightTime;
-
     public bool playAmbiente;
 
     public AudioClip dayMusic;
     public AudioClip eveningMusic;
 
-    public PointsCollector collector;
-    public float night;
+    public PointsCollector collector;   
 
     private bool coroutineDone;
 
@@ -37,6 +35,11 @@ public class DayTime : MonoBehaviour
     private bool sleeping;
 
     public AudioSource source;
+
+    public float night;
+    public float blueColor;
+    public Light2D daylight;
+    public bool cave;
 
     public void Awake()
     {
@@ -103,21 +106,18 @@ public class DayTime : MonoBehaviour
 
     public void Update()
     {
-        if (currentTime < (maxDayTime * 0.65f) && playAmbiente)
+        if (currentTime < (maxDayTime * 0.6f) && playAmbiente)
         {
             source.clip = dayMusic;
             if(!source.isPlaying)
                 source.Play();
         }
-        else if (currentTime > (maxDayTime * 0.65f) && playAmbiente)
+        else if (currentTime > (maxDayTime * 0.6f) && playAmbiente)
         {
             source.clip = eveningMusic;
             if (!source.isPlaying)
                 source.Play();
         }
-
-        if (!coroutineDone)
-            StartCoroutine(ChangeNightSky());
 
         if (currentTime < maxDayTime)
             currentTime = collector.dayTime;
@@ -126,18 +126,31 @@ public class DayTime : MonoBehaviour
 
         ArrowRotation();
 
-        if (currentTime >= (maxDayTime * 0.65f) && coroutineDone)
-        {
-            if (night <= ((currentTime * maxDayTime) / 130))
-                night += (Time.deltaTime * 0.1f);
+        //Night Light
 
-            nightTime.color = new Color(nightTime.color.r, nightTime.color.g, nightTime.color.b, night);
+        if (!coroutineDone && !cave)
+            StartCoroutine(ChangeNightSky());
+
+        if (currentTime >= (maxDayTime * 0.6f) && !cave && coroutineDone)
+        {
+            if (night >= 1 - (currentTime / (maxDayTime) / 2))
+            {
+                night -= Time.deltaTime * 0.1f;
+            }
+
+            if(blueColor >= 1 - (currentTime / (maxDayTime)))
+            {
+                blueColor -= Time.deltaTime * 0.1f;
+            }
+            
+            daylight.color = new Color(blueColor,blueColor, night, 1);
         }
 
-        if(currentTime == 0)
+        if(currentTime == 0 && !cave)
         {
-            night = 0;
-            nightTime.color = new Color(nightTime.color.r, nightTime.color.g, nightTime.color.b, night);
+            night = 1;
+            blueColor = 1;
+            daylight.color = new Color(1, 1, 1, 1);
         }
 
         if(startCheck)
@@ -157,11 +170,12 @@ public class DayTime : MonoBehaviour
     public IEnumerator ChangeNightSky()
     {
         yield return new WaitForEndOfFrame();
-        if (currentTime > (maxDayTime * 0.65f))
+        if (currentTime > (maxDayTime * 0.6f) && !cave)
         {
-            night = (currentTime * maxDayTime) / 50;
-            Debug.Log(night);
-            nightTime.color = new Color(nightTime.color.r, nightTime.color.g, nightTime.color.b, night);
+            night = 1 - (currentTime / (maxDayTime) / 2);
+            blueColor = 1 - (currentTime / (maxDayTime));
+
+            daylight.color = new Color(blueColor, blueColor, night, 1);
         }
 
         coroutineDone = true;

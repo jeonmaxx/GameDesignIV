@@ -11,11 +11,14 @@ public class ClickFieldPuzzle : MonoBehaviour, IPointerClickHandler
     public PlayerMovement movement;
     public AudioSource audioSource;
     public ToolSoundManager toolSoundManager;
+    public Item waterItem;
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        if(handManager.handItem.actionType == ActionType.Water)
+        if (handManager.handItem == waterItem
+            && waterItem.currentWater > 0)
         {
+            waterItem.currentWater--;
             clicked = true;
             audioSource.clip = toolSoundManager.wateringSounds[Random.Range(0, toolSoundManager.wateringSounds.Length)];
             StartCoroutine(PlayAnim("IsWatering", 1.3f));

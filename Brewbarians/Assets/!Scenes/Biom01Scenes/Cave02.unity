@@ -1262,7 +1262,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3792341413740217723, guid: 138025f25e4ed3d438dd2efc11d05d10, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -3355768.8
+      value: -3363549.2
       objectReference: {fileID: 0}
     - target: {fileID: 5574380894860116185, guid: 138025f25e4ed3d438dd2efc11d05d10, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -3185,7 +3185,7 @@ Tilemap:
       - {fileID: 21300000, guid: 10bb5d7452f998b4e8efe880ffd877da, type: 3}
       - {fileID: 21300000, guid: 7dfd503cd449c0c47b7662b2af8c6063, type: 3}
       - {fileID: 21300000, guid: 67c4120483bbfc0439c6b40ea7ed1e95, type: 3}
-      m_AnimationSpeed: 1.5
+      m_AnimationSpeed: 1.5000001
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: -3, y: 24, z: 0}
@@ -3410,7 +3410,7 @@ Tilemap:
       - {fileID: 21300000, guid: 10bb5d7452f998b4e8efe880ffd877da, type: 3}
       - {fileID: 21300000, guid: 7dfd503cd449c0c47b7662b2af8c6063, type: 3}
       - {fileID: 21300000, guid: 67c4120483bbfc0439c6b40ea7ed1e95, type: 3}
-      m_AnimationSpeed: 1.5
+      m_AnimationSpeed: 1.5000001
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 20, y: 25, z: 0}
@@ -3419,7 +3419,7 @@ Tilemap:
       - {fileID: 21300000, guid: 10bb5d7452f998b4e8efe880ffd877da, type: 3}
       - {fileID: 21300000, guid: 7dfd503cd449c0c47b7662b2af8c6063, type: 3}
       - {fileID: 21300000, guid: 67c4120483bbfc0439c6b40ea7ed1e95, type: 3}
-      m_AnimationSpeed: 1.5
+      m_AnimationSpeed: 1.5000001
       m_AnimationTimeOffset: 0
       m_IsLooping: 1
   - first: {x: 21, y: 25, z: 0}
@@ -30710,6 +30710,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 506596161}
     - target: {fileID: 3601626669435942081, guid: d1dfdbdc8c11ef34b8f401d7556bad47, type: 3}
+      propertyPath: waterItem
+      value: 
+      objectReference: {fileID: 11400000, guid: ac51373850ccabc409528ea2b76e08f5, type: 2}
+    - target: {fileID: 3601626669435942081, guid: d1dfdbdc8c11ef34b8f401d7556bad47, type: 3}
       propertyPath: handManager
       value: 
       objectReference: {fileID: 1555428677}
@@ -30722,6 +30726,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 506596161}
     - target: {fileID: 3601626669514789025, guid: d1dfdbdc8c11ef34b8f401d7556bad47, type: 3}
+      propertyPath: waterItem
+      value: 
+      objectReference: {fileID: 11400000, guid: ac51373850ccabc409528ea2b76e08f5, type: 2}
+    - target: {fileID: 3601626669514789025, guid: d1dfdbdc8c11ef34b8f401d7556bad47, type: 3}
       propertyPath: handManager
       value: 
       objectReference: {fileID: 1555428677}
@@ -30734,6 +30742,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 506596161}
     - target: {fileID: 3601626669598726961, guid: d1dfdbdc8c11ef34b8f401d7556bad47, type: 3}
+      propertyPath: waterItem
+      value: 
+      objectReference: {fileID: 11400000, guid: ac51373850ccabc409528ea2b76e08f5, type: 2}
+    - target: {fileID: 3601626669598726961, guid: d1dfdbdc8c11ef34b8f401d7556bad47, type: 3}
       propertyPath: handManager
       value: 
       objectReference: {fileID: 1555428677}
@@ -30746,6 +30758,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 506596161}
     - target: {fileID: 3601626669920625103, guid: d1dfdbdc8c11ef34b8f401d7556bad47, type: 3}
+      propertyPath: waterItem
+      value: 
+      objectReference: {fileID: 11400000, guid: ac51373850ccabc409528ea2b76e08f5, type: 2}
+    - target: {fileID: 3601626669920625103, guid: d1dfdbdc8c11ef34b8f401d7556bad47, type: 3}
       propertyPath: handManager
       value: 
       objectReference: {fileID: 1555428677}
@@ -30757,6 +30773,10 @@ PrefabInstance:
       propertyPath: movement
       value: 
       objectReference: {fileID: 506596161}
+    - target: {fileID: 3601626670136544275, guid: d1dfdbdc8c11ef34b8f401d7556bad47, type: 3}
+      propertyPath: waterItem
+      value: 
+      objectReference: {fileID: 11400000, guid: ac51373850ccabc409528ea2b76e08f5, type: 2}
     - target: {fileID: 3601626670136544275, guid: d1dfdbdc8c11ef34b8f401d7556bad47, type: 3}
       propertyPath: handManager
       value: 
@@ -30846,6 +30866,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 506596161}
     - target: {fileID: 3601626670630359244, guid: d1dfdbdc8c11ef34b8f401d7556bad47, type: 3}
+      propertyPath: waterItem
+      value: 
+      objectReference: {fileID: 11400000, guid: ac51373850ccabc409528ea2b76e08f5, type: 2}
+    - target: {fileID: 3601626670630359244, guid: d1dfdbdc8c11ef34b8f401d7556bad47, type: 3}
       propertyPath: handManager
       value: 
       objectReference: {fileID: 1555428677}
@@ -30858,6 +30882,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 506596161}
     - target: {fileID: 3601626670893894241, guid: d1dfdbdc8c11ef34b8f401d7556bad47, type: 3}
+      propertyPath: waterItem
+      value: 
+      objectReference: {fileID: 11400000, guid: ac51373850ccabc409528ea2b76e08f5, type: 2}
+    - target: {fileID: 3601626670893894241, guid: d1dfdbdc8c11ef34b8f401d7556bad47, type: 3}
       propertyPath: handManager
       value: 
       objectReference: {fileID: 1555428677}
@@ -30870,6 +30898,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 506596161}
     - target: {fileID: 3601626670912907676, guid: d1dfdbdc8c11ef34b8f401d7556bad47, type: 3}
+      propertyPath: waterItem
+      value: 
+      objectReference: {fileID: 11400000, guid: ac51373850ccabc409528ea2b76e08f5, type: 2}
+    - target: {fileID: 3601626670912907676, guid: d1dfdbdc8c11ef34b8f401d7556bad47, type: 3}
       propertyPath: handManager
       value: 
       objectReference: {fileID: 1555428677}
@@ -30881,6 +30913,10 @@ PrefabInstance:
       propertyPath: movement
       value: 
       objectReference: {fileID: 506596161}
+    - target: {fileID: 3601626670939622011, guid: d1dfdbdc8c11ef34b8f401d7556bad47, type: 3}
+      propertyPath: waterItem
+      value: 
+      objectReference: {fileID: 11400000, guid: ac51373850ccabc409528ea2b76e08f5, type: 2}
     - target: {fileID: 3601626670939622011, guid: d1dfdbdc8c11ef34b8f401d7556bad47, type: 3}
       propertyPath: handManager
       value: 
@@ -33968,6 +34004,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7994000882794143287, guid: 217e47a41ccba144abae665f33e8ade5, type: 3}
+      propertyPath: cave
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7994000882794143287, guid: 217e47a41ccba144abae665f33e8ade5, type: 3}
       propertyPath: loadNext
       value: 
       objectReference: {fileID: 1555428669}
@@ -33975,6 +34015,10 @@ PrefabInstance:
       propertyPath: collector
       value: 
       objectReference: {fileID: 1555428671}
+    - target: {fileID: 7994000882794143287, guid: 217e47a41ccba144abae665f33e8ade5, type: 3}
+      propertyPath: maxDayTime
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7994000882794143287, guid: 217e47a41ccba144abae665f33e8ade5, type: 3}
       propertyPath: blackScreen
       value: 

@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 3024403618308997029}
   - component: {fileID: 8184722083110482900}
   - component: {fileID: 6286395334967348828}
+  - component: {fileID: 433813347182047761}
+  - component: {fileID: 950308527557987276}
   m_Layer: 0
   m_Name: Preiselbeere
   m_TagString: Untagged
@@ -54,7 +56,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: bb42fea6ef46ddc48aab4c089ac667f5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -75,7 +77,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b4dab014bdc18d341bc81531125737d9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 647b95030b17dbd428b8fed42d366851, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -123,6 +125,44 @@ PolygonCollider2D:
       - {x: 0.5028907, y: 0.062388416}
       - {x: 0.48013848, y: 0.2746433}
       - {x: 0.20400655, y: 0.40884656}
+--- !u!114 &433813347182047761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5045484194770857341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a69a95705744e8945ab47fc5827452b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isPlayerNear: 0
+  range: 2
+  player: {fileID: 0}
+  playerTran: {x: 0, y: 0, z: 0}
+  rend: {fileID: 8184722083110482900}
+  interactable: 1
+--- !u!114 &950308527557987276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5045484194770857341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30910c3d571235d458e2290dacaf431c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isPlayerNear: 0
+  range: 2
+  player: {fileID: 0}
+  playerTran: {x: 0, y: 0, z: 0}
+  emptyImage: {fileID: 21300000, guid: b4dab014bdc18d341bc81531125737d9, type: 3}
+  harvestItem: {fileID: 11400000, guid: 0ec6c2103682e4e489018b564c42105f, type: 2}
+  emptyBool: 0
+  inventoryManager: {fileID: 0}
 --- !u!1001 &3253450430341656991
 PrefabInstance:
   m_ObjectHideFlags: 0

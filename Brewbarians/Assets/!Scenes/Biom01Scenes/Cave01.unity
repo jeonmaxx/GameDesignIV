@@ -1131,7 +1131,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3792341413740217723, guid: 138025f25e4ed3d438dd2efc11d05d10, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -3683119.8
+      value: -3683661.2
       objectReference: {fileID: 0}
     - target: {fileID: 5574380894860116185, guid: 138025f25e4ed3d438dd2efc11d05d10, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -38862,6 +38862,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7994000882794143287, guid: 217e47a41ccba144abae665f33e8ade5, type: 3}
+      propertyPath: cave
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7994000882794143287, guid: 217e47a41ccba144abae665f33e8ade5, type: 3}
       propertyPath: loadNext
       value: 
       objectReference: {fileID: 1555428669}
@@ -38869,6 +38873,10 @@ PrefabInstance:
       propertyPath: collector
       value: 
       objectReference: {fileID: 1555428671}
+    - target: {fileID: 7994000882794143287, guid: 217e47a41ccba144abae665f33e8ade5, type: 3}
+      propertyPath: maxDayTime
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7994000882794143287, guid: 217e47a41ccba144abae665f33e8ade5, type: 3}
       propertyPath: blackScreen
       value: 

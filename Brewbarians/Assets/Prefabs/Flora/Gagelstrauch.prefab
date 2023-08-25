@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 1280000072203612999}
   - component: {fileID: 2833393682360077111}
   - component: {fileID: 1285649700488789584}
+  - component: {fileID: 4592794433161157518}
+  - component: {fileID: 8463377949240532895}
   m_Layer: 0
   m_Name: Gagelstrauch
   m_TagString: Untagged
@@ -54,7 +56,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: bb42fea6ef46ddc48aab4c089ac667f5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -75,7 +77,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: cb82dc3d68481674bb66fed98741f986, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 09ac9a3e7daba0d41b27069eb23b4553, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -123,6 +125,44 @@ PolygonCollider2D:
       - {x: 0.49999994, y: 0.103646375}
       - {x: 0.4082199, y: 0.28567198}
       - {x: 0.3186427, y: 0.40766376}
+--- !u!114 &4592794433161157518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 834168409270347696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30910c3d571235d458e2290dacaf431c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isPlayerNear: 0
+  range: 2
+  player: {fileID: 0}
+  playerTran: {x: 0, y: 0, z: 0}
+  emptyImage: {fileID: 21300000, guid: cb82dc3d68481674bb66fed98741f986, type: 3}
+  harvestItem: {fileID: 11400000, guid: ecfa8ccfa1efc684daa2dae0d12401a8, type: 2}
+  emptyBool: 0
+  inventoryManager: {fileID: 0}
+--- !u!114 &8463377949240532895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 834168409270347696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a69a95705744e8945ab47fc5827452b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isPlayerNear: 0
+  range: 2
+  player: {fileID: 0}
+  playerTran: {x: 0, y: 0, z: 0}
+  rend: {fileID: 2833393682360077111}
+  interactable: 1
 --- !u!1001 &7288648210389184913
 PrefabInstance:
   m_ObjectHideFlags: 0

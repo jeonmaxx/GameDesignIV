@@ -1,10 +1,20 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class MouseOnInteractable : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
+public class MouseOnInteractable : PlayerNear, IPointerEnterHandler, IPointerExitHandler
 {
     public Renderer rend;
     public bool interactable = true;
+
+    private void Update()
+    {
+        CalcDistance();
+
+        if (isPlayerNear)
+            rend.material.SetColor("_BorderColor", Color.white);
+        else
+            rend.material.SetColor("_BorderColor", Color.red);
+    }
 
     public void OnPointerEnter(PointerEventData eventData)
     {

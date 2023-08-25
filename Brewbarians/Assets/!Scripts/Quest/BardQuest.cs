@@ -91,7 +91,7 @@ public class BardQuest : PlayerNear
             newStage = true;
         }
 
-        if (currentStage == QuestStage.QuestRepeat)
+        if (currentStage != QuestStage.Done)
         {
             for (int i = 0; i < inventoryManager.inventorySlots.Length; i++)
             {
