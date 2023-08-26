@@ -1131,7 +1131,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3792341413740217723, guid: 138025f25e4ed3d438dd2efc11d05d10, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -3745306.8
+      value: -3771384.2
       objectReference: {fileID: 0}
     - target: {fileID: 5574380894860116185, guid: 138025f25e4ed3d438dd2efc11d05d10, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -39311,6 +39311,62 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4247fb8991fdf514f8f5245a0a31a9f2, type: 3}
+--- !u!1 &1712725884
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1712725886}
+  - component: {fileID: 1712725885}
+  m_Layer: 0
+  m_Name: Audio Reverb Zone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!167 &1712725885
+AudioReverbZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712725884}
+  m_Enabled: 1
+  m_MinDistance: 30
+  m_MaxDistance: 35
+  m_ReverbPreset: 9
+  m_Room: -1000
+  m_RoomHF: 0
+  m_DecayTime: 2.91
+  m_DecayHFRatio: 1.3
+  m_Reflections: -602
+  m_ReflectionsDelay: 0.015
+  m_Reverb: -302
+  m_ReverbDelay: 0.022
+  m_HFReference: 5000
+  m_Diffusion: 100
+  m_Density: 100
+  m_LFReference: 250
+  m_RoomLF: 0
+--- !u!4 &1712725886
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712725884}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 22.1, y: -11.1, z: -0.3461635}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1733912264
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41671,10 +41727,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: Manager
       objectReference: {fileID: 0}
+    - target: {fileID: 936317551421470620, guid: 3bb24f974d98f2749b29db6f83f773e9, type: 3}
+      propertyPath: soundtracks.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 936317551421470620, guid: 3bb24f974d98f2749b29db6f83f773e9, type: 3}
+      propertyPath: soundtracks.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 69b8aae7b5d315d48b54714e217348c2, type: 3}
+    - target: {fileID: 936317551421470620, guid: 3bb24f974d98f2749b29db6f83f773e9, type: 3}
+      propertyPath: soundtracks.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 3da9e7302f28984479465b1b384f3d14, type: 3}
+    - target: {fileID: 936317551421470621, guid: 3bb24f974d98f2749b29db6f83f773e9, type: 3}
+      propertyPath: Priority
+      value: 80
+      objectReference: {fileID: 0}
     - target: {fileID: 936317551421470621, guid: 3bb24f974d98f2749b29db6f83f773e9, type: 3}
       propertyPath: m_PlayOnAwake
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 936317551421470621, guid: 3bb24f974d98f2749b29db6f83f773e9, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 5743026271116742312, guid: b999645b280c4a04e89af19173b39691, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3bb24f974d98f2749b29db6f83f773e9, type: 3}
 --- !u!1001 &876984658199089576
