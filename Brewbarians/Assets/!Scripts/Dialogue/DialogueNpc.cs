@@ -10,6 +10,8 @@ public class DialogueNpc : PlayerNear
     public InputActionReference inputAction;
     private InputAction action;
 
+    public InteractableSign interactableSign;
+
     public void Start()
     {
         action = inputAction.action;
@@ -19,6 +21,14 @@ public class DialogueNpc : PlayerNear
     {
         CalcDistance();
         action.started += _ => OnInteract();
+
+        if (isPlayerNear)
+        {
+            interactableSign.gameObject.SetActive(true);
+            interactableSign.ShowInteraction();
+        }
+        else
+            interactableSign.gameObject.SetActive(false);
     }
 
     public void OnInteract()
