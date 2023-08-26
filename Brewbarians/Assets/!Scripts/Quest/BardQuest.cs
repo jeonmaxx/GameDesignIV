@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using UnityEditor.Animations;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -38,7 +37,7 @@ public class BardQuest : PlayerNear
     public Vector3 afterQuestPos;
     public Recipe givenRecipe;
     public RecipeManager recipeManager;
-    public AnimatorController newAnim;
+    public InteractableSign interactableSign;
 
     public void Start()
     {
@@ -52,7 +51,7 @@ public class BardQuest : PlayerNear
         if (currentStage == QuestStage.Done && !stageChecked)
         {
             transform.position = afterQuestPos;
-            anim.runtimeAnimatorController = newAnim;
+            anim.SetBool("questDone", true);
             stageChecked = true;
         }
         else if(currentStage != QuestStage.Done && !stageChecked)
@@ -62,13 +61,13 @@ public class BardQuest : PlayerNear
 
         CalcDistance();
 
-        if (newStage && transform.childCount == 0)
+        if (newStage && transform.childCount == 1)
         {
             Instantiate(exclaPrefab, transform);
         }
-        else if (!newStage && transform.childCount != 0)
+        else if (!newStage && transform.childCount != 1)
         {
-            Destroy(transform.GetChild(0).gameObject);
+            Destroy(transform.GetChild(1).gameObject);
         }
 
 
@@ -104,6 +103,14 @@ public class BardQuest : PlayerNear
 
             }
         }
+
+        if (isPlayerNear)
+        {
+            interactableSign.gameObject.SetActive(true);
+            interactableSign.ShowInteraction();
+        }
+        else
+            interactableSign.gameObject.SetActive(false);
     }
 
     public void OnInteract()
