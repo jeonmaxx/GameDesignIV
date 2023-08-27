@@ -20,7 +20,7 @@ public class SceneTester : MonoBehaviour
     {
         if (File.Exists(path + "sceneGD.json"))
         {
-            Vector2 tmp = SaveGameManager.ReadFromJSON<Vector2>("scene.json");
+            Vector2 tmp = SaveGameManager.ReadFromJSON<Vector2>("sceneGD.json");
             tmpIndex = (int)tmp.x;
         }
         SceneManager.LoadScene(tmpIndex);
@@ -32,8 +32,9 @@ public class SceneTester : MonoBehaviour
         DeleteData("itemsGD.json");
         DeleteData("recipesGD.json");
         DeleteData("pointsGD.json");
-        DeleteData("tutorialGD.json");
+        DeleteData("questGD.json");
         DeleteData("bushesGD.json");
+        DeleteData("puzzleGD.json");
         SceneManager.LoadScene(tmpIndex);
     }
 

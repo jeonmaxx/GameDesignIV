@@ -39,6 +39,7 @@ public class BardQuest : PlayerNear
     public RecipeManager recipeManager;
     public InteractableSign interactableSign;
 
+    public ItemChanged itemChanged;
     public void Start()
     {
         action = inputAction.action;
@@ -129,6 +130,7 @@ public class BardQuest : PlayerNear
                 case QuestStage.GiveItem:
                     newStage = false;
                     Destroy(ItemObj.gameObject);
+                    itemChanged.TriggerItemChange(new ItemString(searchedItem.itemName, false));
                     recipeManager.AddRecipe(givenRecipe);
                     questList[2].Done = true;
                     break;

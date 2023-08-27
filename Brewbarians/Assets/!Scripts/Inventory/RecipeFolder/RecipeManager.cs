@@ -1,7 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+
 
 public class RecipeManager : MonoBehaviour
 {
@@ -13,6 +11,7 @@ public class RecipeManager : MonoBehaviour
     [SerializeField] private ChooseRecipe[] chooseRecipe;
     [SerializeField] private GameObject[] recipeSlot;
     public GameObject[] brewingStation;
+    public ItemChanged itemChanged;
 
     public void AddRecipe(Recipe recipe)
     {
@@ -32,7 +31,10 @@ public class RecipeManager : MonoBehaviour
         rec.product02Sprite.sprite = recipe.Product2.image;
 
         GameObject obj = Instantiate(recipePrefab, recipeHolder.transform.position, recipeHolder.transform.rotation, recipeHolder.transform);
-        if(brewingStaion) 
+
+        itemChanged.TriggerItemChange(new ItemString(recipe.DrinkName + " recipe", true));
+
+        if (brewingStaion) 
         {
             for (int i = 0; i < brewingStation.Length; i++)
             {

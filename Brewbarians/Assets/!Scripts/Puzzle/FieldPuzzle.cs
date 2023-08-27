@@ -10,6 +10,8 @@ public class FieldPuzzle : MonoBehaviour
     public GameObject[] lights;
     public GameObject bridgeObj;
     public Sprite newBridge;
+    public AudioSource audioSource;
+    private bool soundPlayed;
     private bool allRight()
     {
         for (int i = 0; i < rightFields.Count; i++)
@@ -33,12 +35,13 @@ public class FieldPuzzle : MonoBehaviour
     {
         if(allWrong() && allRight())
         {
+            if (!soundPlayed)
+                StartCoroutine(PlaySound());
             doorOpen = true;
         }
 
         if(doorOpen)
-        {
-            //Sound Abspielen
+        {            
             bridgeObj.GetComponent<SpriteRenderer>().sprite = newBridge;
             bridgeObj.GetComponent<BoxCollider2D>().enabled = false;
 
@@ -54,5 +57,13 @@ public class FieldPuzzle : MonoBehaviour
                 light.SetActive(false);
             }
         }
+    }
+
+    private IEnumerator PlaySound()
+    {
+        yield return new WaitForEndOfFrame();
+        audioSource.Play();
+        soundPlayed = true;
+        StopCoroutine(PlaySound());
     }
 }

@@ -1,9 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.EventSystems;
-using UnityEngine.UI;
 
 public class InventoryManager : MonoBehaviour
 {
@@ -14,6 +9,8 @@ public class InventoryManager : MonoBehaviour
     [HideInInspector] public InventoryItem itemInSlot;
 
     private int selectedSlot = -1;
+
+    public ItemChanged itemChanged;
 
     private void Start()
     {
@@ -43,6 +40,7 @@ public class InventoryManager : MonoBehaviour
 
     public bool AddItem(Item item)
     {
+        itemChanged.TriggerItemChange(new ItemString(item.itemName, true));
         if (item.type != ItemType.Seed)
         {
             //Check if any slot has the same item with count lower than max

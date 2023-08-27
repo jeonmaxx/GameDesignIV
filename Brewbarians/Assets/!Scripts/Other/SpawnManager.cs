@@ -45,7 +45,7 @@ public class SpawnManager : MonoBehaviour
 
         for (int i = 0; i < spawnPositions.Count; i++)
         {
-            Debug.Log("scene" + sceneData.x);
+            Debug.Log("sceneGD" + sceneData.x);
             if (sceneData.x == spawnPositions[i].LastSceneIndex)
             {
                 player.transform.position = spawnPositions[i].NewSpawnPosition;

@@ -65,7 +65,13 @@ MonoBehaviour:
   - {fileID: 3601626670630359244}
   - {fileID: 3601626670912907676}
   doorOpen: 0
-  lights: []
+  lights:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  bridgeObj: {fileID: 0}
+  newBridge: {fileID: 21300000, guid: 3bb3be5556369b449aadde0ba11b8d8e, type: 3}
 --- !u!1001 &3601626669435942092
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -87,7 +93,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4935783496443699809, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.25
+      value: -1.3600006
       objectReference: {fileID: 0}
     - target: {fileID: 4935783496443699809, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
       propertyPath: m_LocalPosition.z
@@ -125,6 +131,22 @@ PrefabInstance:
       propertyPath: m_Color.a
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6138769882129928711, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6138769882129928711, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6138769882129928711, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6138769882129928711, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 91a0525260490ae4b82e68b10d5b9bc8, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
 --- !u!1 &3418169461594924203 stripped
@@ -149,7 +171,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.0158731, y: 1.0158731}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -266,12 +288,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45283696f6a39b24cadfd05b5ff29361, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPlayerNear: 0
+  range: 3
+  player: {fileID: 0}
+  playerTran: {x: 0, y: 0, z: 0}
   handManager: {fileID: 0}
   clicked: 0
   clickedSprite: {fileID: -893229558, guid: 1d696e868f561ed438b8476f26bdac08, type: 3}
   movement: {fileID: 0}
   audioSource: {fileID: 3601626670136544276}
   toolSoundManager: {fileID: 0}
+  waterItem: {fileID: 11400000, guid: ac51373850ccabc409528ea2b76e08f5, type: 2}
 --- !u!4 &8468140245019154093 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4935783496443699809, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
@@ -298,7 +325,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4935783496443699809, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.25
+      value: -0.1819992
       objectReference: {fileID: 0}
     - target: {fileID: 4935783496443699809, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
       propertyPath: m_LocalPosition.z
@@ -336,6 +363,22 @@ PrefabInstance:
       propertyPath: m_Color.a
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6138769882129928711, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6138769882129928711, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6138769882129928711, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6138769882129928711, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 91a0525260490ae4b82e68b10d5b9bc8, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
 --- !u!1 &3418169461440102603 stripped
@@ -360,7 +403,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.0158731, y: 1.0158731}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -477,12 +520,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45283696f6a39b24cadfd05b5ff29361, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPlayerNear: 0
+  range: 3
+  player: {fileID: 0}
+  playerTran: {x: 0, y: 0, z: 0}
   handManager: {fileID: 0}
   clicked: 0
   clickedSprite: {fileID: -893229558, guid: 1d696e868f561ed438b8476f26bdac08, type: 3}
   movement: {fileID: 0}
   audioSource: {fileID: 3601626670136544276}
   toolSoundManager: {fileID: 0}
+  waterItem: {fileID: 11400000, guid: ac51373850ccabc409528ea2b76e08f5, type: 2}
 --- !u!4 &8468140244871656141 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4935783496443699809, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
@@ -509,7 +557,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4935783496443699809, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.75
+      value: 1.02
       objectReference: {fileID: 0}
     - target: {fileID: 4935783496443699809, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
       propertyPath: m_LocalPosition.z
@@ -547,6 +595,22 @@ PrefabInstance:
       propertyPath: m_Color.a
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6138769882129928711, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6138769882129928711, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6138769882129928711, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6138769882129928711, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 91a0525260490ae4b82e68b10d5b9bc8, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
 --- !u!1 &3418169461490322267 stripped
@@ -571,7 +635,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.0158731, y: 1.0158731}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -688,12 +752,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45283696f6a39b24cadfd05b5ff29361, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPlayerNear: 0
+  range: 3
+  player: {fileID: 0}
+  playerTran: {x: 0, y: 0, z: 0}
   handManager: {fileID: 0}
   clicked: 0
   clickedSprite: {fileID: -893229558, guid: 1d696e868f561ed438b8476f26bdac08, type: 3}
   movement: {fileID: 0}
   audioSource: {fileID: 3601626670136544276}
   toolSoundManager: {fileID: 0}
+  waterItem: {fileID: 11400000, guid: ac51373850ccabc409528ea2b76e08f5, type: 2}
 --- !u!4 &8468140244921907549 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4935783496443699809, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
@@ -720,7 +789,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4935783496443699809, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.25
+      value: -1.36
       objectReference: {fileID: 0}
     - target: {fileID: 4935783496443699809, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
       propertyPath: m_LocalPosition.z
@@ -758,6 +827,22 @@ PrefabInstance:
       propertyPath: m_Color.a
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6138769882129928711, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6138769882129928711, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6138769882129928711, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6138769882129928711, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 91a0525260490ae4b82e68b10d5b9bc8, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
 --- !u!1 &3418169461034217901 stripped
@@ -782,7 +867,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.0158731, y: 1.0158731}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -899,12 +984,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45283696f6a39b24cadfd05b5ff29361, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPlayerNear: 0
+  range: 3
+  player: {fileID: 0}
+  playerTran: {x: 0, y: 0, z: 0}
   handManager: {fileID: 0}
   clicked: 0
   clickedSprite: {fileID: -893229558, guid: 1d696e868f561ed438b8476f26bdac08, type: 3}
   movement: {fileID: 0}
   audioSource: {fileID: 3601626670136544276}
   toolSoundManager: {fileID: 0}
+  waterItem: {fileID: 11400000, guid: ac51373850ccabc409528ea2b76e08f5, type: 2}
 --- !u!4 &8468140244472038315 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4935783496443699809, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
@@ -931,7 +1021,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4935783496443699809, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.25
+      value: -1.3600006
       objectReference: {fileID: 0}
     - target: {fileID: 4935783496443699809, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
       propertyPath: m_LocalPosition.z
@@ -969,6 +1059,22 @@ PrefabInstance:
       propertyPath: m_Color.a
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6138769882129928711, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6138769882129928711, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6138769882129928711, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6138769882129928711, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 91a0525260490ae4b82e68b10d5b9bc8, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
 --- !u!1 &3418169460953357433 stripped
@@ -993,7 +1099,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.0158731, y: 1.0158731}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1110,12 +1216,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45283696f6a39b24cadfd05b5ff29361, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPlayerNear: 0
+  range: 3
+  player: {fileID: 0}
+  playerTran: {x: 0, y: 0, z: 0}
   handManager: {fileID: 0}
   clicked: 0
   clickedSprite: {fileID: -893229558, guid: 1d696e868f561ed438b8476f26bdac08, type: 3}
   movement: {fileID: 0}
   audioSource: {fileID: 3601626670136544276}
   toolSoundManager: {fileID: 0}
+  waterItem: {fileID: 11400000, guid: ac51373850ccabc409528ea2b76e08f5, type: 2}
 --- !u!4 &8468140244385721983 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4935783496443699809, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
@@ -1142,7 +1253,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4935783496443699809, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.25
+      value: -0.182
       objectReference: {fileID: 0}
     - target: {fileID: 4935783496443699809, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1180,6 +1291,22 @@ PrefabInstance:
       propertyPath: m_Color.a
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6138769882129928711, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6138769882129928711, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6138769882129928711, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6138769882129928711, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 91a0525260490ae4b82e68b10d5b9bc8, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
 --- !u!1 &3418169460400816300 stripped
@@ -1204,7 +1331,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.0158731, y: 1.0158731}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1321,12 +1448,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45283696f6a39b24cadfd05b5ff29361, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPlayerNear: 0
+  range: 3
+  player: {fileID: 0}
+  playerTran: {x: 0, y: 0, z: 0}
   handManager: {fileID: 0}
   clicked: 0
   clickedSprite: {fileID: -893229558, guid: 1d696e868f561ed438b8476f26bdac08, type: 3}
   movement: {fileID: 0}
   audioSource: {fileID: 3601626670136544276}
   toolSoundManager: {fileID: 0}
+  waterItem: {fileID: 11400000, guid: ac51373850ccabc409528ea2b76e08f5, type: 2}
 --- !u!4 &8468140243831091882 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4935783496443699809, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
@@ -1353,7 +1485,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4935783496443699809, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.76631975
+      value: 1.0363202
       objectReference: {fileID: 0}
     - target: {fileID: 4935783496443699809, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1391,6 +1523,22 @@ PrefabInstance:
       propertyPath: m_Color.a
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6138769882129928711, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6138769882129928711, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6138769882129928711, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6138769882129928711, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 91a0525260490ae4b82e68b10d5b9bc8, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
 --- !u!1 &3418169460128569867 stripped
@@ -1415,7 +1563,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.0158731, y: 1.0158731}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1532,12 +1680,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45283696f6a39b24cadfd05b5ff29361, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPlayerNear: 0
+  range: 3
+  player: {fileID: 0}
+  playerTran: {x: 0, y: 0, z: 0}
   handManager: {fileID: 0}
   clicked: 0
   clickedSprite: {fileID: -893229558, guid: 1d696e868f561ed438b8476f26bdac08, type: 3}
   movement: {fileID: 0}
   audioSource: {fileID: 3601626670136544276}
   toolSoundManager: {fileID: 0}
+  waterItem: {fileID: 11400000, guid: ac51373850ccabc409528ea2b76e08f5, type: 2}
 --- !u!4 &8468140244103276557 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4935783496443699809, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
@@ -1564,7 +1717,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4935783496443699809, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.75
+      value: 1.0200005
       objectReference: {fileID: 0}
     - target: {fileID: 4935783496443699809, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1602,6 +1755,22 @@ PrefabInstance:
       propertyPath: m_Color.a
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6138769882129928711, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6138769882129928711, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6138769882129928711, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6138769882129928711, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 91a0525260490ae4b82e68b10d5b9bc8, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
 --- !u!1 &3418169460118223356 stripped
@@ -1626,7 +1795,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.0158731, y: 1.0158731}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1743,12 +1912,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45283696f6a39b24cadfd05b5ff29361, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPlayerNear: 0
+  range: 3
+  player: {fileID: 0}
+  playerTran: {x: 0, y: 0, z: 0}
   handManager: {fileID: 0}
   clicked: 0
   clickedSprite: {fileID: -893229558, guid: 1d696e868f561ed438b8476f26bdac08, type: 3}
   movement: {fileID: 0}
   audioSource: {fileID: 3601626670136544276}
   toolSoundManager: {fileID: 0}
+  waterItem: {fileID: 11400000, guid: ac51373850ccabc409528ea2b76e08f5, type: 2}
 --- !u!4 &8468140244080069626 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4935783496443699809, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
@@ -1775,7 +1949,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4935783496443699809, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.25
+      value: -0.1819992
       objectReference: {fileID: 0}
     - target: {fileID: 4935783496443699809, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1813,6 +1987,22 @@ PrefabInstance:
       propertyPath: m_Color.a
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6138769882129928711, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6138769882129928711, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6138769882129928711, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6138769882129928711, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 91a0525260490ae4b82e68b10d5b9bc8, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}
 --- !u!1 &3418169460175182337 stripped
@@ -1837,7 +2027,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.0158731, y: 1.0158731}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1954,12 +2144,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45283696f6a39b24cadfd05b5ff29361, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPlayerNear: 0
+  range: 3
+  player: {fileID: 0}
+  playerTran: {x: 0, y: 0, z: 0}
   handManager: {fileID: 0}
   clicked: 0
   clickedSprite: {fileID: -893229558, guid: 1d696e868f561ed438b8476f26bdac08, type: 3}
   movement: {fileID: 0}
   audioSource: {fileID: 3601626670136544276}
   toolSoundManager: {fileID: 0}
+  waterItem: {fileID: 11400000, guid: ac51373850ccabc409528ea2b76e08f5, type: 2}
 --- !u!4 &8468140244123707399 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4935783496443699809, guid: 77c549f30da93ad4eb2a51abc414a443, type: 3}

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class ClickFieldPuzzle : MonoBehaviour, IPointerClickHandler
+public class ClickFieldPuzzle : PlayerNear, IPointerClickHandler
 {
     public HandManager handManager;
     public bool clicked;
@@ -15,8 +15,10 @@ public class ClickFieldPuzzle : MonoBehaviour, IPointerClickHandler
 
     public void OnPointerClick(PointerEventData eventData)
     {
+        CalcDistance();
         if (handManager.handItem == waterItem
-            && waterItem.currentWater > 0)
+            && waterItem.currentWater > 0
+            && isPlayerNear)
         {
             waterItem.currentWater--;
             clicked = true;

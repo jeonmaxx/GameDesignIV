@@ -17,7 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/!Scenes/Biom01Scenes/Cave02.unity
     guid: c063fb40827072541b60fcc066d5bb35
-  - enabled: 1
+  - enabled: 0
     path: Assets/!Scenes/TestScenes/TestSIde.unity
     guid: d77aaf306a6af7d4d8b7cc4743d2a9f4
   m_configObjects:

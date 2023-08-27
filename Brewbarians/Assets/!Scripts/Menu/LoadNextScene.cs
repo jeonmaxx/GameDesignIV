@@ -1,4 +1,5 @@
 using System.Collections;
+using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -61,19 +62,19 @@ public class LoadNextScene : MonoBehaviour
         }
 
         if (loadNext)
-            StartCoroutine(LoadYourAsyncScene(sceneIndex));
+            SceneManager.LoadScene(sceneIndex);
     }
 
-    public IEnumerator LoadYourAsyncScene(int scene)
-    {
-        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(scene);
+    //public IEnumerator LoadYourAsyncScene(int scene)
+    //{
+    //    AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(scene);
 
-        // Wait until the asynchronous scene fully loads
-        while (!asyncLoad.isDone)
-        {
-            yield return null;
-        }
-    }
+    //    // Wait until the asynchronous scene fully loads
+    //    while (!asyncLoad.isDone)
+    //    {
+    //        yield return null;
+    //    }
+    //}
 
     public IEnumerator EndFrame()
     {

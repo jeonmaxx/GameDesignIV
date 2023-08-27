@@ -7,10 +7,32 @@ public class DialogueTrigger : MonoBehaviour
     public Actor[] actors;
     public bool passivePassed;
     private DialogueManager dialogue;
+    public bool useSpecialSound;
+    public AudioClip[] specialSound;
+    private AudioClip nOpenSound;
+    private AudioClip nCloseSound;
+
+    private void Start()
+    {
+        dialogue = FindObjectOfType<DialogueManager>();
+        nOpenSound = dialogue.openSound;
+        nCloseSound = dialogue.closeSound;        
+    }
 
     public void StartDialogue()
-    {
-        FindObjectOfType<DialogueManager>().OpenDialogue(messages, actors);
+    {        
+        if (useSpecialSound)
+        {
+            dialogue.openSound = specialSound[0];
+            dialogue.closeSound = specialSound[1];
+        }
+        else
+        {
+            dialogue.openSound = nOpenSound;
+            dialogue.closeSound = nCloseSound;
+        }
+
+        dialogue.OpenDialogue(messages, actors);
     }
 
     public void PassiveDialogue()

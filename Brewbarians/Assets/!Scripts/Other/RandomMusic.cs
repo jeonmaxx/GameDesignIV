@@ -7,7 +7,7 @@ public class RandomMusic : MonoBehaviour
 {
     public AudioClip[] soundtracks;
 
-    public void Awake()
+    public void Start()
     {
         AudioSource source = GetComponent<AudioSource>();
         source.clip = soundtracks[Random.Range(0, soundtracks.Length)];
