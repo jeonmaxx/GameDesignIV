@@ -41,7 +41,7 @@ public class InventorySlot : MonoBehaviour, IDropHandler, IPointerClickHandler
                 inventoryItem.parentAfterDrag = transform;
             }
         }
-        else if (!brewingSlot)
+        else if (!brewingSlot && transform.childCount == 0)
         {
             inventoryItem.parentAfterDrag = transform;
         }

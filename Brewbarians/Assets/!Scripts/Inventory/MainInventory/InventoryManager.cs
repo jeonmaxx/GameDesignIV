@@ -6,7 +6,7 @@ public class InventoryManager : MonoBehaviour
     public InventorySlot[] inventorySlots;
     public InventorySlot[] seedWheel;
     public GameObject inventoryItemPrefab;
-    [HideInInspector] public InventoryItem itemInSlot;
+    public InventoryItem itemInSlot;
 
     private int selectedSlot = -1;
 
