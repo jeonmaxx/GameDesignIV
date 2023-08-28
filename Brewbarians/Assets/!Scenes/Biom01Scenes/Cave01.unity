@@ -1215,7 +1215,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3792341413740217723, guid: 138025f25e4ed3d438dd2efc11d05d10, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -3935230.8
+      value: -3942612.2
       objectReference: {fileID: 0}
     - target: {fileID: 5574380894860116185, guid: 138025f25e4ed3d438dd2efc11d05d10, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -40045,7 +40045,7 @@ MonoBehaviour:
   messages:
   - actorId: 0
     message: 'We barely escaped the raid party. If it wasnt for their torches and
-      the plumes of smoke we wouldnt have noticed them early enough. '
+      the plumes of smoke we wouldn''t have noticed them early enough. '
   - actorId: 0
     message: We were foolish to believe the era of war was over. Those god forsaken
       pagans...
